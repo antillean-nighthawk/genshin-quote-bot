@@ -1,4 +1,4 @@
-# genshin-discord-bot
+# Genshin Quote Bot
 Discord bot that says lines of characters from Genshin Impact  
   
 This is my first time making a Discord bot, I hope you enjoy.  
@@ -17,8 +17,4 @@ Look at the code to see what characters and topics there are, I will add a help 
 All characters are from the game Genshin Impact and credit goes to Mihoyo  
 ~~please dont sue me Mihoyo~~  
   
-Progress Notes:  
-12/19/2021  
-I just started making this bot so it only has Hu Tao's lines so far.  
-I plan to add more characters and additional languages.  
-  
+This bot is a work in progress, I plan to add more characters and additional languages.  
