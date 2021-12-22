@@ -36,6 +36,12 @@ def make_character(person):
         character = Character(voice_lines.kaeya_lines)
     elif person == 'albedo':
         character = Character(voice_lines.albedo_lines)
+    elif person == 'venti':
+        character = Character(voice_lines.venti_lines)
+    elif person == 'rosaria':
+        character = Character(voice_lines.rosaria_lines)
+    elif person == 'klee':
+        character = Character(voice_lines.klee_lines)
 
     return character
 

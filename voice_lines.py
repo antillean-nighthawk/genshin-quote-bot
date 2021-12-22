@@ -183,3 +183,186 @@ albedo_lines = [
                 "Citrinitas is the final stage of the alchemical transmutation process. The meaning of the object being transmuted has finally been brought to light, becoming gold and revealing its true value... I too have found my own meaning."
                 ]
                ]
+
+venti_lines = [
+               "*Yawn* That was a refreshing sleep. Ah, Traveler, we meet again! What? You don't remember me? Ahaha, well, allow me to join you on your quest once again. I must see to it that the bards of the world tell the Traveler's tales!",
+               [
+               "Sure, I'll play you another tune, but it'll cost you an apple.",
+               "Right now I wish I was sat at the top of a tree, looking out over a meadow, cider in hand... *sigh*",
+               "Come on Traveler, let's go! The world is full of lost ballads just waiting to be rediscovered."
+               ],
+               [
+               "Let's go jumping in puddles and see who can make the biggest splash!",
+               "It's stopped raining already? A shame, I wanted to play some more.",
+               "Let's wait till the snow gets heavier and have a snowball fight!",
+               "The wind has returned! Quick, let's go gliding!"
+               ],
+               "Morning! What's in store for today?",
+               "My tummy is rumbling, but I can't get caught pilfering food from the Dawn Winery again... Oh, it's you! Where are you heading? May I join?",
+               "I'm still not sleepy, fancy an evening stroll?",
+               "Off to the land of nod? Haha, Farewell my friend!",
+               [
+               "Practice? Me? There's no need - I already know every song in Teyvat!",
+               "Perfect timing, Traveler! I was about to ask you — what is your greatest wish?",
+               "There's never a dull moment traveling with you! The only minor inconvenience is that pesky little pixie thing that follows you everywhere... she never stops eating, I can't begin to imagine how much you spend on food!",
+               "The Pyro Archon is a wayward, warmongering wretch, and the Geo Archon is a brutish blundering buffoon! How do I know? Because, this is written in the epic poems of days gone by!",
+               "Celestia... I'm not sure even I could fly that far. In any case, the water there tastes foul and the fruit is bland. You know what that means? No cider! Haha, in that case, I wouldn't go there even if I was invited.",
+               "My greatest wish? It has always been to roam free and experience the whole world. Now I would add that wherever I go, it simply must be with you! Each day with you is an adventure, and where adventurers go, storytellers must follow!"
+               ],
+               [
+               "I have decided to write a song about you! What are you giving me that look for? Can't afford it? Don't be preposterous, the price for you my friend is precisely zero Mora! Although... one thing you could do is tell me a few more of your stories!",
+               "Haha, once the (hero/heroine) in the song has actually rescued the (princess/prince), I will ensure this song spreads to every corner of the continent!",
+               "As evening breeze really sets the mood for becoming my disciple, don't you think? We can do it right now, you just need to make me a small offering...",
+               "What's that? You think I should try harder to be a good Anemo Archon? Well you could be a better devotee too... you could be more pious, more passionate, or... um..."
+               ],
+               "Hmm? You want to know about my Vision? Oh, go on then, take a look for yourself. I can make you a matching one if you like! Hehehe.",
+               "Olah! Haha, that's how the Hilichurls say \"hello\". Why, I learned it to aid with my songwriting, of course! Vast knowledge makes for a richer composition... That said, I haven't actually written any songs in Hilichurlian so far...",
+               "Traveler, have you ever seen a cecilia? It's a magnificent white wildflower that only grows on the most remote mountains and clifftops. To me, at least, it is the most beautiful flower in all of Teyvat.",
+               [
+               "Acting Grand Master Jean... Well, what do you think of her? Yes, I couldn't agree more: conscientious, courageous... kind and considerate too. Reminds me of another good friend...",
+               "I'm not surprised you want to befriend Master Diluc, just think of all vintage wine he must have stored away... Mwuhahaha... Huh? He doesn't let you sample it? Not even the slightest drop? Huh... Well, I guess you can still appreciate the aroma. That's still better than no wine at all, right? No?",
+               "The darling Deaconess with the sweet singing voice — do you know her? You do? Idol, huh? Meet and greets? Concerts? Wow... That's the power of music for you...",
+               "Ah yes, the white-haired fellow from Wolvendom? Raised by wolves? Really? ... No wonder his scent is so familiar...",
+               "Oh, that astrologer? How should I put it? Fortune telling and my singing are the same both lead to you being so poor you can't even cough up the money for a drink! ...You think that astrology is a cultural tradition, so at least still has some value? Hmph, so rude. In that case, so too is singing, so it still has its value too!",
+               "There's a special drink known far and wide at Cat's Tail. But it ah... ahh... ACHOO! *sniffs* How about you go and fetch one for me? I'll be truly thankful, I promise.",
+               "How do you explain white chalk in black soil, or the earth's dense crust amidst the emptiness of space? Same reason the purest soil gave birth to human life... It's an ancient power with unmistakable properties. Trying to harness it is dangerous indeed, I can't imagine what would happen if someone lost control of it in the city... Ah, never mind! What goes on within Mondstadt's walls is up to Mondstadt's people to deal with!",
+               "Have you seen that gentleman around? Huh? He's just a normal man by the name of Zhongli now? That must be quite the change for that old block-head. Come with me to see him, will you? I have a vintage I dug up from Windrise that I can take as a condolence gift. Oh, ahh... did he still seem strong when you saw him? How strong? Am I likely to get blown away?",
+               "Eula has good taste when it comes to beverages of the alcoholic variety. Come summer or winter, she always likes them ice-cold. That's rare among Mondstadters these days! She and I would make great drinking buddies. Huh? My songs about the Lawrence Clan... She's heard them already? Eh, no harm done. Maybe she and I can do a duet sometime!",
+               "So, I hear you defeated the mighty Raiden Shogun? Ah, I recall the days when she was a kagemusha, seeking to perfect her martial prowess. Hehe, she now no doubt employs a wide range of reasoning to get you to train with her. Oh but yes, come close and I shall let you in on her weakness — desserts!"
+               ],
+               "I like to drink! And I like the wind! If only there were such a thing as wind-brewed cider...",
+               "I'm actually highly allergic to cats, I start sneezing as soon as they enter the vicinity, and... Aaah... Aa-choo! Ugh, apparently I can't even THINK about cats without sneezing. Do you think there is a cure for this monstrous affliction?",
+               [
+               "Here, have an apple. I just picked it. Look how ripe and juicy it is... *munching*... Truly the fruit of the gods.",
+               "What's that tasty morsel you've got there... Eew! A melted cheese pancake! A smelly, sticky, slimy disgusting mess!"
+               ],
+               "Someone once told me you're supposed to eat a cake on your birthday... Tada! Here's your birthday cake — it's apple flavored! And here's a spoon. The cake didn't rise properly in the oven, that's why it looks more akin to an apple pie... Ugh, baking is really quite complicated!",
+               [
+               "Woah! What was that?",
+               "Good work. Shall we repose for a moment, with a tune? Shall it be a capriccio, or a serenade?",
+               "Come, sit with me. I've written a new poem. I call it \"Wind of the Traveler.\"",
+               "Hmm... Though I've long since viewed this scenery a great many times, there is something different about seeing it again with you. Surely you're not still concealing some other wondrous abilities? Hmm, even if you were, it would simply further prove that my intuition is correct."
+               ]
+              ]
+
+rosaria_lines = [
+                  "Listen disciple, if you've got a problem you can't handle, then I'm the one for the job. But if you're looking for prayer, you'd better find some other Sister ...Huh? You're not a disciple?",
+                  [
+                    "Don't we have a job to do?",
+                    "Everything is negotiable, except overtime.",
+                    "Work hard and live each day to the fullest. That is what life in Mondstadt is all about, isn't it?"
+                  ],
+                  [
+                    "This will slow things down.",
+                    "...What a nuisance.",
+                    "We should keep moving, but watch your step in the snow.",
+                    "Blessings from the Anemo Archon Barsibato? Wait... no, it's Bartobas...?"
+                  ],
+                  "*yawn* Good morning... I've missed morning mass, haven't I? Ugh, it starts too early anyway.",
+                  "I'd say I sleep even better in the afternoon sun. You should try it sometime.",
+                  "Good evening. Don't expect to see me at prayer tonight... And don't ask why.",
+                  "Go ahead, take a break. I'll handle things here.",
+                  [
+                    "Me? I'm just another ordinary person. Church, work... I just do what I have to do.",
+                    "Each of the Sisters is worse than the next. If it's not about prayer, then it's about choir or some other thing I'm supposed to participate in... I'm trying to stay out of sight, so don't you dare tell them you saw me here.",
+                    "Let's forgo the formalities. I'm here to finish a job. Just leave the dirty work to me.",
+                    "What's weird about a Sister without reverence for the gods? There are hunters who don't eat pork, and fisherman who don't eat fish, aren't there? Just because you do something doesn't mean you love to do it. That's how every job goes.",
+                    "This year's Dandelion Wine is sinfully good. Care for a glass?",
+                    "Mondstadt is a beast of light, both old and young. Old in the sense that it constantly requires someone's protection, yet too young to ever survive on its own. That's why there's people like me. I care for Mondstadt just as the other Sisters care for the believers, we are all guiding that which we love onward on the path towards freedom. Huh? Why do I call it a beast of light? Because people like myself can only be found in the dark...",
+                    "I sometimes feel that my former selves from years past still exist alongside me, urging me on. I'm sure you know the feeling, too. Even if you decide to venture down a new path, don't just abandon the former you. For that is the foundation upon which you now take footing. Do not fear your past, and do not be scared to come to grips with it."
+                  ],
+                  [
+                    "Perhaps a god has the power to protect everyone if they would choose to do so, but that would never happen. Otherwise, people's suffering couldn't ever be taken seriously.",
+                    "Pray. Not for the gods, nor the betterment of others... but for yourself.",
+                    "Don't overdo it. Let me take care of the dirty work."
+                  ],
+                  "A Vision... Could be proof of strength, or a medal for having survived... who knows? There're two sides to every coin. I won't limit my Vision with ceremonies and definitions. It witnesses me, and I witness it, that's all.",
+                  "You don't always know why good things happen, or why we should be happy about them. Heh... But if you ever face a problem too big to handle, don't give up hope. You never know, someone may be there to help, even if you can't see them.",
+                  "I take no interest in plant life and the sort, but the dandelion is an exception. How such a simple flower could turn into such a delectable wine is beyond me. A glass of dandelion wine after work is even better than sleeping in on Sunday.",
+                  [
+                    "Isn't it obvious? There's more than meets the eye to that rich tycoon. He's confident, yet discreet... and even a little bit dangerous.",
+                    "Wine has its uses... like revealing someone's true colors, for example. Smooth talk is Kaeya's veil, but being me, I can see right through it. Hah, you should see him when he's drunk.",
+                    "There's something extremely interesting about this bard... I can't quite put my finger on it. There's something that makes him different from the others in Mondstadt.",
+                    "Barbara is like a thorn in my side, always nagging me about mass and choir practice. I wouldn't be surprised if Sister Victoria specifically asked her to keep an eye on me.",
+                    "She's not only competent in her own work but also somehow manages to clear up various matters for others... Huh. Now that's a woman who deserves admiration.",
+                    "He's like an oil painting you find hanging on the wall in some ancient hall, profound and mysterious... hard to see through. But what can I say, I find people with stories... interesting",
+                    "Although I deplore those who play truant on a job, I respect her punctuality when it comes to closing up for the day.",
+                    "Trouble, and lots of it. Although, it is sort of a cute kind of trouble...",
+                    "I'm sure Varka means well, but his long-winded conversations get real old real quick. Although, he does really care for those around him, doesn't he?",
+                    "Father? I'm not familiar with the word. You could say that I don't have one — could also say I have many, too. What's it to you?"
+                  ],
+                  "There are some troubles that only a stiff drink can take away. That being said, I never get drunk.",
+                  "Ugh, definitely skipping next month's choir concert, but I bet Sister Victoria will be personally taking roll... What a nuisance.",
+                  [
+                    "Have you ever tried Beef Bourguignon? Big chunks of meat with the smooth taste of alcohol... Mmm, it's delectable.",
+                    "You mean I'm supposed to dip this hash brown in jam? Ugh, this is sacrilege!"
+                  ],
+                  "Today's your birthday, so if you have any dirty work that needs taking care of, I can give you a hand... Just don't tell anybody, got it?",
+                  [
+                    "Hmm, just what I needed.",
+                    "You have a job for me? I've got time.",
+                    "Good. Getting stronger means finishing jobs quicker.",
+                    "I'm no stranger to spilling blood, but never have I possessed such power before. For such blessings, I give you thanks."
+                  ]
+                ]
+
+klee_lines = [
+              "Spark Knight Klee of the Knights of Favonius, reporting for duty! ...There's some more, but uh, I forgot. I'm not so good at remembering...",
+              [
+                "Klee was a brave girl today! I found a really weird-looking lizard! Want me to show it to you?",
+                "Do you wanna come fish blasting with me? I'll get grounded for a whole day, but it's way worth it coz the fish taste sooo goood!",
+                '"Explosion inside city wall, grounded be thy woe," "Explosions can hurt people, Jean can be dreadful," "Mondstadt be bombed, Klee be doomed." Those\'re the survival rules that the Knights of Favonius gave me.'
+              ],
+              [
+                "Mwauhahaha, lucky all my new bombs are waterproof!",
+                "What'd I blow up!? ...Oh wait, it's just thunder and lightning. Phew.",
+                "Dear Anemo God, please make Klee's bombs blow in the right direction and only blow up bad guys. The end."
+              ],
+              "Good morning! Can I come play with you today? Pleeeease? I wanna go on an adventure!",
+              "Lunchtime! What do you wanna eat today? Let me see if the Teyvat Travel Guide has any suggestions...",
+              "Good evening! Can you please tell Huffman that Klee is not a baby and is definitely allowed out to play at night? Please take me out to play together!",
+              "Hey... Um... I know I said I don't wanna go home and all, but now it's nighttime and I can't find my way home in the dark...Can you please take me home on your way back? Pleeeease?",
+              [
+                "Ohhhhh... I broke one of the blades on the windmill - I'm really sorry!",
+                "I'm really good at fixing things though. I can help! Huh? What do you mean that's child labor? What even is child labor? Does that mean I can't help?",
+                "Hello, are you here for playtime with Klee?",
+                "Yeah! This is my new and improved bomb! Whaddya think? Great huh? ...Oh, but ahh... If you find it near any fires, it's not mine. Definitely. Not. Mine.",
+                "Sure, time in solitary confinement gives lots of time to think about new gunpowder formulas... But it'd still be better to not be in solitary in the first place.",
+                "This is Dodoco, my oldest and bestest friend! Okay, now I've introduced you, don't forget her name again alright? No more calling Dodoco (puts on silly voice) \"that silly doll Klee always hangs on her rucksack.\"",
+                "Thanks for helping me out every time I get in trouble! I have a thank-you present for you — barbecued fish, made with my own secret recipe! ...Okay, so the secret recipe is exploding the fish out of the water. Tee-hee, they're fully cooked by the time they land! But it's a secret, right, so you don't get to tell anybody. Just pretend like you don't even know."
+              ],
+              [
+                "Hee-hee, you're an Honorary Knight but I've been a Spark Knight longer... That means I'm higher up than you, right? So you have to do what I say! So, um... Ca-Can you not say anything about the big disaster I caused? It was an accident...",
+                "No! It's only nine o'clock, I'm staying up to watch the circus' special midnight performance! You're supposed to be my best friend! Don't even think about trying to send me home!"
+              ],
+              "This little marble is supposed to be a present from Barbatos to say well done? Well done for what though? ...Hmm, he is the god of freedom I guess, maybe that's why he likes me? Alright, from now on I'll say thank you to Barbatos by showing that I have the freedom to blow up as many fish as I want! ...Am I doing it right?",
+              "At the Knights of Favonius building, you're not allowed to blow up the walls. Shame, it would make getting out of solitary confinement way easier... but if I did so much as try to blow up the wall, Jean would make sure Klee never sees the light of day again. That's what Jean said, Kaeya told me.",
+              "Every lizard has a different pattern on his back, and some of them you can use their dried-out tails to make gunpowder with. I know because Albedo told me so.",
+              [
+                "Razor's one of my best buddies! Whenever a disaster happens, he always knows the best way to fix it and helps keep Klee safe. Um, but most of the time I'm the one who caused the disaster...",
+                "My mom and dad are the famousest travelers in Teyvat! Mom writes the Teyvat Travel Guide, so all the restaurants and hotels in the whole world care what she thinks about them.",
+                "Kaeya is the best! He wrote the Favonius Survival Rulebook for me and he always helps me cover it up when I make a big disaster.",
+                "Amber is the best! Baron Bunny is so fluffy and he even explodes! So. Cool.",
+                "Master Jean is the best! But she's also a little bit scary.",
+                "He's one of the weird grown-ups. He's so grumpy all the time... Why does he never smile?",
+                "Lisa is the best! She always sneaks me some treats when I visit her at the workshop. ...Huh, I just remembered I was gonna ask her if I could use the workshop to make some new gunpowder. But I totally forgot...",
+                "Bennett is the best! I always find way more treasure if I go adventuring with Bennett! ...But he never finds any. Why is that, anyway?",
+                "Diona is the best! I like listening to her, last time I heard her say, \"I'm gonna destroy the wine industry in this city if it's the last thing I do!\" And I'm gonna help her using my bombs! ...I don't know what a wine industry is though. Is it a monster?",
+                "Me and Albedo have a secret code! Whenever he puts a sign on his workshop door saying \"Experiment in Progress,\" that's code for \"Come back later, Klee.\" Albedo's really nice and he's so patient with me, so I don't mind waiting until he's finished with his work.",
+                "Mona is the best! It's so much fun when she comes to play with me and Albedo. She talks about all these amazing things, and I don't understand most of it but... Ah, I just love it when Mona comes round!",
+                "Sucrose is the best! This one time she asked me if I wanted a Jumpy Dumpty that can run as well as jump. Tee-hee, well duh! Of course I do, I want hundreds of them! I wanna put them on every street, every staircase, and every square in Mondstadt!"
+              ],
+              "I like things that are fluffy~! Like Dodoco! And dandelions! And Razor's hair!",
+              "*sigh* You're a good person, but I'm a bad girl. Once I'm out of solitary confinement and am done reflecting on my actions, we can go play together again, okay?",
+              [
+                "Mondstadt's basses are delicious, especially the ones you grab yourself from Cider Lake! I'm not even kidding, even my mom thinks so.",
+                "I hate, hate, hate Mondstadt's crabs! All of them! I wanna go out and play, I don't wanna just sit there tryna de-shell a crab all day..."
+              ],
+              "♪Happy birthday to you, happy birthday to you, happy birthday dear traveler, happy birthday to you!♪ You're older than me right? That means you've had way more birthdays than me... I'm sooo jealous!",
+              [
+                "Mm, new-bomb research complete! Now, let's get outta here before Jean finds out...",
+                "Aw yeah, I improved again! But as Jean says, \"Continuous self-improvement is one's duty.\" She says that means I'm allowed to be a bit happy about it, but not the most happy I've ever been in my whole life about it.",
+                "Thanks for helping me gather so much stuff for my research! If you ever wanna learn how to make a bomb, I can teach you y'know.",
+                " I remember the first time I ever heard an explosion... I wasn't scared at all. Later on, I found out that apparently, that's not \"normal\", and most people would've been scared. But hey, you're not scared of my bombs right? Tee-hee, I knew it! That's why you're my bestest friend ever!"
+              ]
+             ]
