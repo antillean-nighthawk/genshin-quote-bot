@@ -10,24 +10,21 @@ bot = commands.Bot(command_prefix='$')
 
 class Character:
     def __init__(self, voice_lines):
-        self.hello = voice_lines[0]
+        self.hello = random.choice(voice_lines[0])
         self.chat = random.choice(voice_lines[1])
         self.weather = random.choice(voice_lines[2])
-        self.morning = voice_lines[3]
-        self.afternoon = voice_lines[4]
-        self.evening = voice_lines[5]
-        self.night = voice_lines[6]
-        self.about_self = random.choice(voice_lines[7])
-        self.about_us = random.choice(voice_lines[8])
-        self.vision = voice_lines[9]
-        self.share = voice_lines[10]
-        self.interesting_things = voice_lines[11]
-        self.about_others = random.choice(voice_lines[12])
-        self.hobbies = voice_lines[13]
-        self.troubles = voice_lines[14]
-        self.food = random.choice(voice_lines[15])
-        self.birthday = voice_lines[16]
-        self.ascension = random.choice(voice_lines[27])
+        self.time = random.choice(voice_lines[3])
+        self.about_self = random.choice(voice_lines[4])
+        self.about_us = random.choice(voice_lines[5])
+        self.vision = random.choice(voice_lines[6])
+        self.share = random.choice(voice_lines[7])
+        self.interesting_things = random.choice(voice_lines[8])
+        self.about_others = random.choice(voice_lines[9])
+        self.hobbies = random.choice(voice_lines[10])
+        self.troubles = random.choice(voice_lines[11])
+        self.food = random.choice(voice_lines[12])
+        self.birthday = random.choice(voice_lines[13])
+        self.ascension = random.choice(voice_lines[14])
 
 def make_character(person):
     if person == 'hu-tao':
@@ -42,6 +39,10 @@ def make_character(person):
         character = Character(voice_lines.rosaria_lines)
     elif person == 'klee':
         character = Character(voice_lines.klee_lines)
+    elif person == 'kujou-sara':
+        character = Character(voice_lines.kujou_sara_lines)
+    elif person == 'raiden-shogun':
+        character = Character(voice_lines.raiden_shogun_lines)
 
     return character
 
@@ -59,14 +60,8 @@ async def say(ctx, person, line = None):
         await ctx.send(character.chat)
     elif line == 'weather':
         await ctx.send(character.weather)
-    elif line == 'morning':
-        await ctx.send(character.morning)
-    elif line == 'afternoon':
-        await ctx.send(character.afternoon)
-    elif line == 'evening':
-        await ctx.send(character.evening)
-    elif line == 'night':
-        await ctx.send(character.night)
+    elif line == 'time':
+        await ctx.send(character.time)
     elif line == 'about-character':
         await ctx.send(character.about_self)
     elif line == 'about-us':
