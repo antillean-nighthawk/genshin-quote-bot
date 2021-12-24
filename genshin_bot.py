@@ -41,12 +41,16 @@ def make_character(person):
         character = Character(voice_lines.klee_lines)
     elif person == 'kujou-sara':
         character = Character(voice_lines.kujou_sara_lines)
-    elif person == 'raiden-shogun':
-        character = Character(voice_lines.raiden_shogun_lines)
+    elif person == 'raiden':
+        character = Character(voice_lines.raiden_lines)
     elif person == 'kokomi':
         character = Character(voice_lines.kokomi_lines)
     elif person == 'gorou':
         character = Character(voice_lines.gorou_lines)
+    elif person == 'sayu':
+        character = Character(voice_lines.sayu_lines)
+    elif person == 'noelle':
+        character = Character(voice_lines.noelle_lines)
 
     return character
 

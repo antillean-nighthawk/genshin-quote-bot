@@ -646,7 +646,7 @@ kujou_sara_lines = [
   ]
 ] 
 
-raiden_shogun_lines = [
+raiden_lines = [
   #hello
   [
     "No salutations needed. My exalted status shall not be disclosed as we travel among the common folk. I acknowledge that you are a person of superior ability. Henceforth, you will be my guard. Worry not. Should any danger arise, I shall dispose of it.",
@@ -920,5 +920,188 @@ gorou_lines = [
     "The key to seizing victory in battle lies in remembering the meaning of battle and employing the right tactics to generate momentum, making your forces unstoppable.",
     "With momentum on our side and close camaraderie, we are unstoppable. Thank you for your guidance. This is a victory that belongs to the both of us."
   ]
-
 ]
+
+sayu_lines = [
+  #hello
+  [
+    "Sayu, Shuumatsuban, at your disposal! Whew, but if you don't need me right now, I'm gonna grab some sleep. Nope, no need to tuck me in — I need the extra room to grow into."
+  ],
+  #chat
+  [
+    "*yawns* *snoring*",
+    "Seems like I should have just stayed in bed today.",
+    "Surely I should be due a growth spurt by now?"
+  ],
+  #weather
+  [
+    "Eek, let's find shelter, quick! Watering works on plants, but not people...",
+    "Phew, this weather is wild! Best thing to do is dive under the covers where it's dark and snug and warm and nyam nyam nyam~ *sleeps*",
+    "It's really easy to hide in weather like this. There's this ninjutsu technique called Cloak of Snow where you can pretty much make yourself invisible — all other people see when they look at you is the snowflakes dancing in the air. Wait, it's confidential though! Don't tell any of this to the shrine maiden...",
+    "Loooove it when the weather's like this, just makes you wanna... *yawn* doze off for a while.",
+    "A windy day is a good day for a getaway.",
+    "I always know it's time to get some shut-eye when the wind's so strong that I can't open my eyes anyway."
+  ],
+  #time
+  [
+    " ...Morning? Already? Okay, I'm just gonna snooze for, like, 10 more minutes... Please, just 10 minutes... No? Okay, 5 minutes then? *snores*",
+    "Is it noon yet? Finally, I'm so ready for my nap.",
+    "Recon confirms, no sign of the shrine maiden within a 3-mile radius. Moving to the next phase: sleepy time!",
+    "At long last... bed time... G'night..."
+  ],
+  #about-self
+  [
+    "Yeah, I'm in the Shuumatsuban, but they only ever get me to do stuff like... *yawn* information gathering and stealing. So, y'know... it's not really a big deal if the work doesn't get done.",
+    "So I don't do any important work at the Shuumatsuban, and anything that gets put off for long enough ends up getting done by someone who's more suited to it anyway. Sleep, on the other hand — that is of the utmost importance. Because I need to get enough sleep to make sure I get my growth spurt.",
+    "Zzzz....",
+    "Huh? You wanna know the name of my style of ninjutsu? Uhh... Y'know what, I can't think straight right now, I'm still half asleep here. Lemme snooze a while longer, maybe my mind'll be clearer when I wake up.",
+    "Alright, fine... I'll tell you. But you'd better not laugh, or I'm never talking to you again. Uh so, my style of ninjutsu is called... um... Yoohoo Art. The reason is supposedly that our style focuses on making fun of the enemy, but still... I mean... *sigh*",
+    "Do you know how to climb trees? I'm an expert, I can teach you. There's this tree down at the shrine — it's the perfect place, you could just literally sleep there all day if you wanted and no one would ever find you... Uh, I just mean, it's a great place for a power nap. Next time you wanna take a nap, let me know, I'll take you there.",
+    "It was actually sensei who gave me this outfit. They said it was modeled after the mujina, and it could help with escapes, or something... and then sensei said that I was all grown up and ready to go it alone, but that I should still be careful to protect myself... then they left me. Am I really ready to go it alone, at my height? Um... Hmm? Y—You'll keep my company? Really? Promise you won't leave me?"
+  ],
+  #about-us
+  [
+    "Hey, will you do me a favor and let me know if you see the shrine maiden coming? I'm just gonna, um... rest my eyes for a moment.",
+    "I'm not a pet, y'know! Hmm, but since it's you... Okay, you can pat my head and I promise not to bite your hand. Just a little, though! If you pat someone's head too much, it stunts their growth."
+  ],
+  #vision
+  [
+    "My sword is crazy heavy, even with my ninjutsu training there's no way I could lift it without the help of my Vision. So yeah, having a Vision is a huge help for me."
+  ],
+  #share
+  [
+    "Sensei says I'll be the last ninja ever in our line. I guess it can't be helped, because this style of ninjutsu wouldn't be much help in a fight anyway — all I've been taught is how to escape and how to cover your tracks."
+  ],
+  #interesting
+  [
+    "Do you know the mujina? It looks similar to a tanuki, but it's way cuter. I'll take you to see one next time!"
+  ],
+  #about-others
+  [
+    "As the eldest daughter of the Kamisato Clan, she always looks very graceful and elegant. But she got one of the shrine maidens to keep tabs on me and make sure I don't slack off... Why would she do that?",
+    "Sometimes, when I'm taking a rest up in a tree, I overhear the shrine maidens talking about him. Sounds like he's pretty important and super busy most of the time. I don't get it, though — it's only work, or whatever, so why doesn't he just... not do it?",
+    "He's got a Vision, and yet for some reason he pesters me about learning ninjutsu every time I run into him. I don't know what his deal is. It's not like I'd have the time to teach him anyway, I barely get enough sleep as it is.",
+    "Every time she sees me she says, \"Hey, little tanuki! Let's go hang out at the festival.\" Firstly, I'm not a tanuki. Secondly, I don't wanna go to a festival. Thirdly, she says she wants to hang out — but really, she just wants me to do a ninjutsu performance during the fireworks show. That's not even related to my work for the Shuumatsuban!",
+    "Her Excellency? Definitely not someone I'd ever get to meet. If you've got questions, maybe Miss Ayaka's the person to ask.",
+    "She's always patting me on the head... I've never bitten her, though, or even said anything, because I'm frightened of how she'd react if I stood up to her. But what am I gonna do? Because if she keeps on patting my head, I'm gonna get stuck at this height forever!",
+    "Why does he have to make such a racket? And how did he get so tall!?",
+    "Doesn't ring a bell, umm... What? Arataki Itto's little sidekick? Ugh, well she's definitely gotta be a sleep disturbance then. Birds of a feather flock together..."
+  ],
+  #hobbies
+  [
+    "When I put my hood on, I can snooze away to my heart's content without having to worry about the shrine maiden finding me. *sigh* I think it must be one of the best feelings in the whole world."
+  ],
+  #troubles
+  [
+    "For some reason, when people meet me for the first time, they always call me tanuki, or teddy-bear, or kitty-cat... But Sayu is just Sayu — and definitely not a tanuki.",
+    "When is my growth spurt gonna come? Everyone my age practically twice my height, and I'm still... Ugh, enough, I need sleep, sleep is the answer. Good night!"
+  ],
+  #food
+  [
+    "High-carb foods that give you instant energy, like rice balls. If you eat one the moment you wake up, it stops you feeling so groggy and bleary-eyed. Then, you can just relax and get straight back to sleep.",
+    "Can't be picky about food when you've still got growing to do! ...That said, I haven't gained any height recently — maybe I'm not eating enough vegetables? But salad isn't filling enough and sometimes it can be really bitter... *sigh*"
+  ],
+  #birthday
+  [
+    "Wanna learn some ninja skills? I can teach you! Well, only the skills I know, of course. Hmm? Why aren't I asleep? ...Uhh, because I'm not sleepy... and also because today is a special day! I had to stay awake today so I'd have the chance to say it to you in person: Happy Birthday."
+  ],
+  #ascension
+  [
+    "Is it just me, or did I get a little taller!?",
+    "Awesome, now I can slip away faster than ever. Hee-hee, they can't catch me now.",
+    "Hey, thanks for going and gathering all those materials for me. I would've gone myself, but... I probably would've got about halfway before falling asleep.",
+    "I think I'm finally ready to go it alone now, just like sensei said I should. And... maybe it's not such a big deal now if I can't grow any taller. Because what really matters... is that I have you to keep me company."
+  ]
+]
+
+noelle_lines = [
+  #hello
+  [
+    "My name is Noelle, maid of the Knights of Favonius, and it's my pleasure to be joining you on your adventure today. Should you encounter any problems at any point throughout your journey, please do not hesitate to call me and I will be delighted to provide you with my full assistance. Yes, starting right now — what do you need?"
+  ],
+  #chat
+  [
+    "Leave it to me! All of it, whatever it is! ...What... exactly is \"it\"? I didn't quite catch your request...",
+    "You seem tired. Would you like some tea? I'll brew you some. Do you take sugar? One cube, or two?",
+    "Whenever you need me, I'll be there."
+  ],
+  #weather
+  [
+    "Oh dear, everyone's laundry is still on the line! May I be excused to fetch it in?",
+    "Please stay indoors until the storm passes. I will deal with any urgent outdoor business.",
+    "Such fair weather. Why don't we do a bit of sunny work? Oh, what sort of work is that, you ask? Haha, well, anything that makes you feel bright and sunny too.",
+    "Can you hear the Anemo Archon's voice on the breeze? It calms me down whenever I get flustered."
+  ],
+  #time
+  [
+    "Good morning! Breakfast is served. I will be on hand the whole time. Should you find that anything is not to your taste, please, do not hesitate to let me know.",
+    "Ready for your tea break? Please wait here while I get it ready. Oh yes, I also made Lighter-Than-Air Pancakes! You simply must try one, it's my specialty.",
+    "Everyone has free time in the evening, and that is when I am busiest. Where have Amber's washed hairbands been placed? How many new eyepatches did Kaeya buy? Keeping track of all these things is a maid's responsibility.",
+    "Please get some rest, you must be tired from today's adventure. I should head back to the Knights of F- Sorry? you want me to watch over you until you fall asleep? I-I... I mean, of course, it's no problem. But, um... You're not just teasing me, are you?"
+  ],
+  #about-self
+  [
+    "In my job I do the exact same things every day — a far cry from being a true knight, that's for sure. But ultimately this is all part of my training, and when it comes to training, actions speak louder than words.",
+    "I'm a bit useless in an argument because I can't really explain my reasoning clearly. People find that hard to understand, so instead, I try to just get on with my work in my own way. But then they call me stubborn. All I try to do is convince people with results instead of trying to talk them round... Is that really stubborn of me?",
+    "How may I be of assistance? ...Oh, you just want to chat? Okay then! Well, if that's how I can help, then please feel free to chat as long as you'd like.",
+    "Not a problem, I am here to serve in whatever capacity you require. You needn't be concerned about the way I feel. ...Huh? More tool than maid? I disagree! A tool might help you to complete a million tasks to a satisfactory standard, but it feels nothing. I, on the other hand, feel a strong sense of achievement every time I do something for you.",
+    "Th-These treats are for me? Oh no, I couldn't, really. Well... Then I'll make some for you too! I'll go right now, right this instant! Half an hour... Ah, ok maybe an hour, tops. You can busy yourself with other things first, and I'll be sure to deliver them right to you, hot and fresh out of the oven!",
+    "I spend all my days handling the most trivial of matters, but so long as it helps you in your adventure, or makes your life easier in some small way, I couldn't be happier. That's because each time I get a thank-you, it makes me feel like my work at least has some meaning, no matter how insignificant it seems.",
+    "Even though I mostly work for the Knights of Favonius, I'm always looking out for ways I can help more people. These days, though, I seem to be spending more and more of my time with you... It might be a bit selfish of me... What do you think?"
+  ],
+  #about-us
+  [
+    "I am devoted to what I do, but make no mistake — I devote myself freely. A maid, to me, is the most liberating job there is. I'm a chef, a gardener, a warrior, a guide... I can be anything you need me to be!",
+    "Even when you're too busy to eat three square meals, never eat something if you don't know where it came from, and always maintain a balance between meat and vegetables. Oh, and no swimming right after a meal. Haha, I do hope you're not thinking, \"that's too much trouble I'll just leave it to Noelle,\" are you? ... Oh... but of course, if you are... Well then, just leave it to me.",
+    "So I hear you're an Honorary Knight of Favonius? I envy you! I suppose that makes you my senior... Anyway, it's about time someone threw you a welcome party, surely? Leave it to me!"
+  ],
+  #vision
+  [
+    "To be honest, I'm feeling a little dejected. Sure, this Vision proves that the Archons think I'm worthy, but why is it a Geo Vision? I mean, Geo's the furthest thing from Anemo, and for a Knight of Favonius..."
+  ],
+  #share
+  [
+    "I actually really like the smell of wine, I'm just not of drinking age yet. There have been a few times when I could have had a little taste if I'd wanted, and no one would ever have known... but I resisted the temptation. I feel like the first time you try it is probably really magical, so I want to save it till I'm older."
+  ],
+  #interesting
+  [
+    "A maid is required to keep everyone's secrets. That's why my favorite flower is the rose. Here in Mondstadt, the rose represents the saying \"As wine bottles are corked, so too are my lips sealed.\" It reminds me to— What? ...Roses represent love in your hometown? I—I had no idea the rose held such a... passionate meaning."
+  ],
+  #about-others
+  [
+    "I really look up to Amber. Not only is she an accomplished knight, but she's a kind person too. She taught me how to make a Baron Bunny. I keep it on my person for luck, and it looks quite alright, don't you think?",
+    "I've always been curious as to how she managed to become a fully-fledged knight at such a young age. I actually went to ask her for tips once, but I'd barely started talking to her when she grabbed me by the hand and took me outside the Knights headquarters to play with bombs. I thought it was some kind of training exercise at first, but Jean found us, and we both ended up in a solitary confinement...",
+    "Master Jean has always been my role model, both in terms of ability and dedication. She holds herself and others to the same high standards, so if there ever comes a day when I meet with her approval, it will be the ultimate acknowledgment of all my efforts so far. Until then, there's no room for complacency!",
+    "At first I wanted to join his expedition party and do my part as a maid. But the Grand Master said no — it would give him more peace of mind if I stayed behind to take care of things in Mondstadt. It made me so happy to hear how much he values me! ...Okay, so apparently he said the same thing to a lot of people. But that doesn't change the fact he prizes me too!",
+    "He's a mysterious character! He comes and goes like the wind, and is always occupied with important business. I like the fact that he delegates some of the smaller jobs to me sometimes, it's nice to feel like part of the team, you know... What do you mean, \"errand runner\"? I don't see it like that at all! Okay, well yes, technically I run errands for him. But still, I really appreciate it!",
+    "He's asked me to join the Adventurer's Guild more than a few times, saying that life there would suit me better than with the Knights of Favonius. While I could help him take care of his \"dads\" like the other adventurers. the Knights hold a special meaning for me, and I'm not ready to give up on becoming one yet. No, I simply cannot accept his offer.",
+    "I think she's from another world, but I don't know the details. One thing I do know, however, is that she loves the Knights of Favonius' library. She can always be found there with her nose in a book. I bring her some refreshments whenever I go in there to clean, and she always thanks me profusely. When I say profusely, I mean she goes a bit over the top, to be honest, and... I actually don't understand half of what she's saying.",
+    "So once when I was cleaning the library, I noticed a book on the shelf called Flowers for Princess Fischl. At the time I assumed it was just a fantasy novel... I was so surprised to find out the main character is a real person. I could hardly believe it! She must be someone incredible to have a whole book dedicated to her.",
+    "We take tea breaks together sometimes. Often she'll start humming a tune, saying inspiration has come to her. I'm not the right person to give useful feedback on anything musical... But I still love spending time with Barbara."
+  ],
+  #hobbies
+  [
+    "My hobby? I really like washing all sorts of things... clothes, floorboards, windows, you name it! Whenever I see something dirty I just want to give it a good old clean! It just gives me such a sense of achievement! ...Oh, you mean the things I do in my free time? Hmm... Same answer!"
+  ],
+  #troubles
+  [
+    "How to get more for your Mora? Last time I went all the way to Liyue, I visited every single shop to compare prices, and then carried everything back myself... I won't be doing that again though. I was on the road for so long that Jean was convinced I'd been gobbled up by Stormterror along the way!"
+  ],
+  #food
+  [
+    "My favorite is easily a Satisfying Salad. The best of Mondstadt's natural produce on one plate — highly nutritious, and a low calorie count. No, I never get sick of eating it — it's delicious! I've been eating it for ten years now.",
+    "I'm not a fussy eater. But I really don't like banquets... The reason being, as the maid I am expected to sample every single dish on the table to ensure its quality. Just one bite of each, of course, but it all adds up... Oh, the guilt..."
+  ],
+  #birthday
+  [
+    "Since you're always so busy adventuring, there must be so many little things you never get round to, surely? Well, you need not worry about them adding up, because today, I am all yours - your exclusive maid for the entire day! Just leave it all to me! ...Also, I'd like to take this opportunity to wish you a very happy birthday!"
+  ],
+  #ascension
+  [
+    "What is this... new power!? Thank you! Now I can be of assistance to even more people.",
+    "I cannot rest on my laurels. After all, I'm not even formally a knight yet. Until that day, I must work even harder.",
+    "Thank you for the opportunity to accompany you on your adventures, it's taught me a lot and I believe I have improved a lot. As a maid, I should be the one serving you, but it seems you have done more for me than I could ever imagine...",
+    "Everyone in Mondstadt is saying that I'm much more reliable now. Some even say that I'm to be made a true knight soon, but I don't think... What!? You think so too!? Oooohh, thank you! Coming from you, that is the best compliment I could ever hope for!"
+  ]
+]
+
