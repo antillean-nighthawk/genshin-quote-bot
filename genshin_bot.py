@@ -1,7 +1,4 @@
-import discord
-import os
-import voice_lines
-import random
+import os, voice_lines, random
 from dotenv import load_dotenv
 from discord.ext import commands
 
@@ -51,6 +48,8 @@ def make_character(person):
         character = Character(voice_lines.sayu_lines)
     elif person == 'noelle':
         character = Character(voice_lines.noelle_lines)
+    elif person == 'thoma':
+        character = Character(voice_lines.thoma_lines)
 
     return character
 
