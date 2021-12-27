@@ -1199,3 +1199,278 @@ thoma_lines = [
     "Thank you for placing your trust in me. Your kindness warms my heart more than the brightest flame ever could. But not to worry, I've figured out what I want to do now. My strength is your shield, and I will always be here to protect you."
   ]
 ]
+
+fischl_lines = [
+  #hello
+  [
+    """Fischl: I, Fischl, Prinzessin der Verurteilung, descend upon this land by the call of fate an— Oh, you are also a traveler from another world? Very well, I grant you permission to travel with me.\nOz: She means "Nice to meet you."""
+  ],
+  #chat
+  [
+    "I hear the voice of fate, speaking my name in humble supplication...",
+    "Hm-hm, may the glory of the Prinzessin bring light to this world.",
+    """Fischl: I do worry about the well-being of my retinue during my impromptu absence...\nOz: I'm sure the good people of the Adventurers' Guild are absolutely fine, mein Fräulein."""
+  ],
+  #Weather
+  [
+    "Oh, the sun's out— *cough* Um... This meteorological transformation is most splendid! Like a felicitous twist of fate in the face of certain doom.",
+    """Fischl: Hark! 'Tis Thundering Retribution, an omen of dark times ahead...\nOz: That, and mein Fräulein's laundry is still on the line...\nFischl: Wha... Seriously!?""",
+    """Fischl: Hm-hm. A wonderful sight indeed. Why, it reminds me of my home world, where at the sight of the Prinzessin der Verurteilung, the very blood and tears of sinners turn to ice! ...Atchoo! Atchoo!\nOz: Not only their blood and tears, but also their saliva and mucus, mein Fräulein.\nFischl: Oz— Ahh—Atchoo!!!""",
+    """Fischl: Ozzie, my dear familiar...\nOz: "Ozzie?" What's gotten into you...\nFischl: Her Majesty beseeches you to unfurl your blessèd wings, and with them blot out the heavens, plunging the world into eternal night...\nOz: If you didn't bring your parasol with you, that's your own fault, mein Fräulein!"""
+  ],
+  #time
+  [
+    "Dusk and dawn but fleeting shadows are. Once more, the twists of fate have led you into my everlasting night.",
+    """Oz: Good morning. Mein Fräulein heard you'd be dropping by, so she's preparing breakfast.\nFischl: Oz! ...Ahem. To what do I owe the pleasure?""",
+    "Even one of royal blood finds oneself susceptible to drowsiness at this hour.",
+    """Fischl: The stars of the firmament are naught but rifts, thrust open by Oz's beak into the boundless tapestry of darkness.\nOz: You do say the strangest of things, mein Fräulein.""",
+    """Fischl: Sweet shall be thy sleep, spared of the mares of the night! For no night mares would dare draw near to those who are blessed by the Immernachtreich!\nOz: She means \"Goodnight.\""""
+  ],
+  #about-self
+  [
+    """Fischl: Me? Hehehe. Remember thou this, that I, Fischl, am the Prinzessin der Verurteilung, Sovereign of Immernachtreich, omniscient and eminent judge of all the world's iniquity!\nOz: She's an investigator for the Adventurers' Guild.\nFischl: ...Ahem. That is but one of my many royal engagements.""",
+    "To condemn the guilty, to sanctify the just, and to draw all castaway dreams into the embrace of infinite Immernachtreich. This is the birthright of the Prinzessin der Verurteilung, and her burden. None may gainsay it.",
+    "My left eye? It is the all-seeing Auge der Verurteilung, which reveals all that is true in the world. As to the question of why I conceal it... Well, would you willingly bear the agony of piercing to the heart of all truths? Furthermore... the world would lose much of its appeal if wholly stripped of delusion and falsehood.",
+    """Fischl: Stormterror? Why, one never would have thought that a being that one might have kept as her pet could, in this world, be capable of causing such calamity. *sigh* Pitiable are the incompetents of this world...\nOz: That said, mein Fräulein, were you not beside yourself with worry for everyone's safety during said calamity?\nFischl: T-That is because the Prinzessin der Verurteilung has the solemn duty to safeguard the souls of all, be they petty beings or not...""",
+    """Oz: Some people address her by other names. But to me, the one who gave me life and bestowed my powers upon me is Fischl, and none other. All things considered, Fischl is the name that most aptly captures her identity. Seriously, don't call her anything else, or—\nFischl: Oh, how one's royal ears do burn! Pray tell, what is the matter which you discuss so furtively?\nOz: Mid—Midnight Phantasmagoria, mein Fräulein! And... the majesty of Verurteilung name!""",
+    "Why must the Prinzessin der Verurteilung punish sin? Because sin defies fate's rightful decree, of course! ...And of course, fate brought you here, so, so... Ahem! It was fate that saw to your descent upon this world, destiny that saw our paths intertwined. I, Fischl, shall always protect you. Because... because fate has revealed to me that this is what has been decreed!"
+  ],
+  #about-us
+  [
+    "You and I are both travelers from another world. That our paths have crossed here is no accident, but the will of fate.",
+    "You seem... troubled. Traveler, Do not lose heart! For with my left eye, the Auge der Verurteilung, which sees the threads of fate, I will surely keep you from harm. And Oz, the raven that has witnessed the demise of countless worlds, will watch over you on your journey. Should this world, like a beast prowling in the night, covet your dreams, then I, Prinzessin der Verurteilung, shall fell it with my ensorcelled arrows of judgment!",
+    """Fischl: Oz, my loyal companion. That we should have met this person, one who hails from another world as I do... Perhaps even cruel fate has deigned to smile upon me, through sin courses through my veins. If I am indeed destined to remain here, in this inescapable prison that is reality, at least—\nOz: I understand mein Fräulein! In this traveler, Fräulein has found one who will never forsake her.""",
+    """Fischl: Ozvaldo von Hrafnavines. I, the Prinzessin der Verurteilung, sovereign of the Immernachtreich, do hereby call upon thee to do all within thy power to deliver the traveler from the claws of fate that would seek to snatch them at every turn, and to ready thy mind lest thou be required to make the ultimate sacrifice in the performance of this noblest of duties.\nOz: ...You'd place my life in danger so easily, mein Fräulein?"""
+  ],
+  #vision
+  [
+    "Oh? You inquire about my Edelstein der Dunkelheit? It is a royal heirloom, a ceremonial ornament that displays the majesty of the Prinzessin der Verurteilung before the unworthy. Even here, in this fallen world, I have been reunited with my rightful inheritance as one of royal blood and noble spirit, for the majesty of a true princess shall draw her royal heirlooms unto her wherever so she may roam."
+  ],
+  #shar
+  [
+    """Fischl: If one must reckon time as this world does, I, Fischl, have already seen three thousand winters. Not that the illusory passage of time has any bearing on one such as I, to whom the causality of three thousand universes has been unveiled.\nOz: Be that as it may, mein Fräulein. you are not yet considered to be of drinking age in this world, and no bartender can ever be convinced otherwise."""
+  ],
+  #interesting
+  [
+    "Oz's full name is Ozvaldo von Hrafnavines. Where I hail from, he holds dominion over star and sky across three universes, and the souls of the mighty, fallen in battle, rest in the shadow of his wings. One should add that the penalty for mispronouncing his name is to have one's tongue torn from one's mouth. However, as I am a princess and you are one who has my favor, we are at liberty to simply call him, \"Oz.\""
+  ],
+  #about-others
+  [
+    """Fischl: Ah, the ill-starred young man... My Auge der Verurteilung has seen with unmistakable clarity how his heart ails at being forsaken by the world—\nOz: Someone needs to keep an eye on the unlucky fellow.""",
+    """Fischl: The magus-custodian of books, gatekeeper of universal knowledge... Win her trust, and one may yet get access to a vast repository of wisdom.\nOz: She means as long as you return your first few library books on time, you'll never have any trouble borrowing a book again.""",
+    """Fischl: His nature is obscure, his fate a mystery, and his speech a vexing tapestry woven of both fact and fiction... Perhaps he and I share the burden of mystical sight...\nOz: Or perhaps he's secretly an actual pirate?""",
+    """Fischl: Aha, yes, Mona, the mighty astrologer... Mona, who once had the vanity to probe the fate of the Prinzessin der Verurteilung herself! She wound up a trembling wreck, overborne and overmastered.\nOz: *whispering* The poor lass was trying desperately not to laugh. It was no easy task.""",
+    """Fischl: One finds Sister Rosaria to be a most devout believer in the Anemo Archon.\nOz: ...\"Devout believer,\" mein Fräulein?\nFischl: Indeed! One night, I heard her invoking the name of the Archon thus in another's presence: "May you be struck down in the name of Lord Bartabos!" One presumed that she was leading a prayer."""
+  ],
+  #hobbies
+  [
+    "I, Fischl, have roamed the galaxy and traversed countless worlds. I have learned the fate of ten thousand universes and have had revealed unto me the destiny of every living soul.",
+    "Oz: Mein Fräulein reads a lot of novels. *sigh* My name, \"Oz,\" is from one of her favorites."
+  ],
+  #troubles
+  [
+    "What does it take to rile a princess? ...If you must know, it is those who cannot recognize my true identity. But it is no great loss, for solitude is the noble's lot, so long as I do not lose the nobility of my soul..."
+  ],
+  #food
+  [
+    """Fischl: Hmph! What is food but the shackles of mortal flesh? ...But if the Prinzessin der Verurteilung should reckon any morsel worthy, then it must be the tears of sinners and the tongues of liars.\nOz: Has mein Fräulein lost her appetite for the Mitternachtsbrot des Sommernachtgartens?\nFischl: ...Uh— That is merely to provide mine earthly vessel with such sustenance as it doth require to perform its royal duties!""",
+    """Oz: I believe I know the answer to this one...\nFischl: Indeed you do, Oz! Ah, that the poor mortal coil, mutilated by bondage unnatural...\nOz: It will never again fly as I do...\nFischl: Deprived of the humble coif with which it was born to gaze in awe at the majesty of its monarch... Surely it is a glimpse of my homeworld's hell, in the flesh. Hmm, the name of the dish escapes me...\nOz: Something something \"Madame,\" isn't it?"""
+  ],
+  #birthday
+  [
+    "Fischl: Well! If today is truly the anniversary of your birth, it shan't do for me not to mark the occasion. You have my full attention. Speak! Speak to me of your wishes, that which you most desire to fulfill during your fleeting and harsh existence in this wretched world. Whatever that wish may be. Even if, perchance—\nOz: She means, \"Happy Birthday, and if you want, she can—\"\nFischl: Silence, Oz."
+  ],
+  #ascension
+  [
+    "Fischl: My magic arrow cries out my holy name as it streaks through the night, praying that the violet lightning of retribution shall strike the enemies of fate down from the skies!\nOz: Quite awe-inspiring, mein Fräulein! Since it's nearly dinner time, perhaps you might shoot a pigeon down while you're at it?",
+    "Fischl: With this, I may more fully manifest my majesty as Prinzessin der Verurteilung, and defeat that sworn enemy of fate named \"reality.\"\nOz: It will also be of use in your work for the Adventurers' Guild, mein Fräulein.",
+    "Rejoice! Else, tremble in fear! Whenceforth springs this call to mirth and misery, you ask? Let it be known that I, the Prinzessin der Verurteilung, sovereign of the Immernachtreich, have peered forth with mine leftmost eye into the tapestry of fate that doth make up the universe, and beheld its every warp, weft and dangling orphaned thread!",
+    "I appear to have now regained most of the strength I lost in my transition to this world. Mwuhahaha, the day of judgment is nigh! ...Ah, worry not. Even at the last, when I bring the lightning of retribution upon this world, you shall come to no harm, for thou art blessed by the Prinzessin."
+  ]
+]
+
+xiao_lines = [
+  #hello
+  [
+    "If you awake to a knife at your throat, if monsters dig their claws into you, if death comes knocking at your door, call out my name. Adeptus Xiao. I will be here when you call."
+  ],
+  #chat
+  [
+    "Reduced to just standing around. How absurd.",
+    "The damned will sooner die again than lay a hand on me.",
+    "Grrgh... Those memories... So dark..."
+  ],
+  #weather
+  [
+    "Demons do not stop for the rain. Move.",
+    "The rain stopped? Hmph. I don't concern myself with the weather.",
+    "Many mortals fear lightning... Incomprehensible. Fear of something so common.",
+    "Once the snow is thick enough, we can eat it."
+  ],
+  #time
+  [
+    "We're wasting time. Let's go.",
+    "Lunch... We'll go back to Wangshu Inn.",
+    "Night... When the darkness comes to envelope you. Don't stay outside.",
+    "Go. I'll be here."
+  ],
+  #about-self
+  [
+    "I'm far from human. I can't make much of human emotions.",
+    "Liyue is changing. Rapidly... Forget it, it means nothing to me.",
+    "I'm willing to protect you. But don't think about getting close, and stay out of my way, or all that awaits you is regret.",
+    "In the thousands of years that have passed, I have taken countless wraiths. If you want no trouble, stay away from me. See me as a weapon, and nothing more.",
+    "Their voices... I can always hear them. Their screams, their cries, demanding more death...This is my burden to carry. It has nothing to do with you.",
+    "Morax...? What do you know of this name?! He gave me the name Xiao, and released me from the endless pain I endured. I will not forgive those that dare to speak against him, even you.",
+    "It's too late. The connection between us is too strong. Even if you wanted to, it's too late to sever it. Hm? You've never thought to sever it? *sigh* This eternal dance of demon subjugation... My fight goes on. But I would like to know more about you."
+  ],
+  #about-us
+  [
+    "If a day comes where even you are taken by the darkness, it will be up to me.",
+    "Do not fall prey to the darkness. I have no mercy. Though perhaps you can stand your ground alone.",
+    "Who's there? Oh... You think I sleep? You have no respect for the ways of the adepti.",
+    "The Lantern Rite? The time for humans to discard their glowing trash into the sea has returned... How childish...Though if you insist... I will go with you."
+  ],
+  #vision
+  [
+    "Visions? Desire? Ha. Do not judge adepti by your mortal ideals. I have no desire.",
+    "Hiding? I'm hiding nothing. I just won't speak of desire to others. Do mortals not have a rule about spoken wishes never coming true? Hm? What do you mean that's not the same?"
+  ],
+  #share
+  [
+    "I deal in death. If you cannot bring yourself to kill — speak my name."
+  ],
+  #interesting
+  [
+    "Dihua Islet was once deserted. Though that was many decades... no, centuries ago..."
+  ],
+  #about-others
+  [
+    "Can I ask... Zhongli — what does he do with his days? Huh? Birds, antiques, flowers...Hmm... What deeper meaning do they hold?",
+    "Beidou? I have nothing to do with her. Though there is such a thing as the leviathan. As a mere human, she has proven her power in defeating Haishan.",
+    "You want... Baizhu to make a medicine to take away my pain? I understand your intentions, but mortal medicine has no effect on adepti.",
+    "Hu Tao? Her liveliness is irritating. Fortunately, she is also humorous, so you need not worry about her growing into a boring human.",
+    "Venti? So that's the name he goes by. His tunes are... forget it.",
+    "Ganyu is neither mortal nor illuminated beast. Wandering both the mortal and Adepti realms with duty as her sole guide, it was inevitable that she would become perplexed... What? Me? You believe a Yaksha who knows nothing more than how to massacre countless souls and emerge unscathed is a suitable mentor for such an individual? ...Your mind occupies a very different world from that which your body inhabits."
+  ],
+  #hobbies
+  [
+    "There's nothing timid about you, having the courage to ask about my hobbies. So, fight me. How long do you think your body will last against my blows?"
+  ],
+  #troubles
+  [
+    "Trouble? Ha. Trouble means nothing to adepti. There is no trouble that can last for a thousand years."
+  ],
+  #food
+  [
+    "I have no interest in mortal food. Cooking is tedious and the wait is long. The one thing I can manage to stomach is Almond Tofu.",
+    "The taste of Almond Tofu feels like a fond dream...",
+    "Wait. I am expected to place slices of meat in wrappings myself? And then... eat them? Together? Ugh, humans these days do not know what they are doing."
+  ],
+  #birthday
+  [
+    "This mortal concept of commemorating the day of your birth really is redundant. Wait. Have this. It's a butterfly I made from leaves. Okay. Take it. It's an adepti amulet — it staves off evil."
+  ],
+  #ascension
+  [
+    "This is it? Nothing worth getting excited about.",
+    "New power? All it will be used for is death.",
+    "The limit to one's power is self-destruction. Answer me. Why do you persist?",
+    "Countless souls have fallen prey to these hands. I too have been swallowed by the darkness — and yet you dare to drive me on. You may think of me as... your companion. You seek to find me salvation?...You... really are a difficult being to comprehend."
+  ]
+]
+
+diona_lines = [
+  #hello
+  [
+    "Diona, bartender of the Cat's Tail! I charge a hefty fee for private events. Huh? You didn't come here for a drink? Hmm... Then I accept your invitation... I suppose..."
+  ],
+  #chat
+  [
+    "Ahhh... that stretch feels good.",
+    "Hmm. Lizard Tail, Pepper, Starconch, hmm... what else do I need to create the most dreadfully disgusting cocktail?",
+    "I—I wasn't waiting for you. I just happened to be resting!"
+  ],
+  #weather
+  [
+    "Rain! I hate rain! ...Let's go inside... I—I'm not scared of water, I just... hate it when my clothes get wet.",
+    "Ahh!!! Uhh, um... I'm not shaking, I'm not... Ohhhh...",
+    "Ooh, it's so cold to touch. Wow, it's so much fun!",
+    "Ooooh, look at the little white snowflakes dancing in the wind, to and fro, and... whew, isn't it... beautiful! C'mon, c'mon c'mon, sit with me... Watch...",
+    "Come on, let's go bask in the sun a bit~ ...If you aren't coming, I'll just go by myself~ ...Last chance! Are you coming or not!?"
+  ],
+  #time
+  [
+    "Morning~ Can you hand me that can of salted loach from the cabinet? Time to destroy the wine industry!",
+    "Wha— Ugh, no! You heard nothing!",
+    "Uh, I was saving this can of fish for when I was really hungry. Stop looking at it like that! ...Mmm, okay, I'll let you have a little taste, but nothing more!",
+    "Aw, I failed... Ugh, again... Everyone loved my drinks! Gah... Don't try to comfort me. I—I don't need comforting!",
+    "Without cat vision, will you be okay walking home in the dark? If you need me to escort you... What? Th—There's lights? Pff, well who said anything about escorting you? Go on now."
+  ],
+  #about-self
+  [
+    "My ears and tail are no prop, they're real. Proof of my Kätzlein bloodline. It's only weird to you cause you've never seen it before. Wh—Why are you looking at me like that? Fine. You can touch my ears for a second, but the tail is off limits!",
+    "Life as a mixologist is very busy! When I'm not at the tavern, I'm out collecting ingredients for new recipes. So... So unless something is urgent, don't bother me.",
+    "You wouldn't ask me to meow like a cat, like those boozehounds at the tavern do, would you? I wouldn't do it, no way! I'm not some little house pet that just shakes my ears real cute and stretches my back! I'm... I'm Diona, Destroyer of the Wine Industry!",
+    "\"How did the Destroyer of the Wine Industry become the Cat's Tail's mascot...?\" Y—You're asking this just to make fun of me! Ohhh, you're awful! I won't be giving YOU any more drinks, not even water.",
+    "Don't, don't make me angry. I'm pretty tolerant, but don't even try to mess with me. I'm warning you, I bite when I get angry! Meow!!! ...But maybe I'd let you off easy, no bites...",
+    "You and me... we're good friends now, right? I kind of remember having a friend like this before, but maybe it was a dream... Here, give me your hand. Ahh... Hmm, nice and warm... Very nice... please don't leave me, and become another dream."
+  ],
+  #about-us
+  [
+    "You want a non-alcoholic drink? No, that's not difficult, but it's meaningless! It doesn't have anything to do with my grand plan of destroying the wine industry of Mondstadt. I won't waste my time on such a drink, hmph!",
+    "Here! I call this Fantastic Summer-Serendipity Coral Sparkling Tea, I just made it one day when I was bored... Huh, you say it's popular? People are lining up to buy it? Don't be ridiculous.",
+    "Well, if you ever feel lonely, you can chat with me. I know lots of cool things~ I'm a good... what's that called... chatting partner! Yes! A good chatting partner, come chat with me... lots... ...okay?",
+    "What's that!? What's that!? Let me see! Maybe I can add it to my next cocktail to give it a dreadful taste... Huh? It's just a strange-looking mushroom, how boring..."
+  ],
+  #vision
+  [
+    "How did I get my Vision? Simple — everyone in the Kätzlein lineage gets one. ...Huh? Then why doesn't Draff have a Vision? Uhh... Oh no, the cat's out of the bag! Eek!",
+    "Why should I tell you!? Hmph! ...*sigh* Since you won't stop asking... and since we are friends, I'll tell you: One time, my daddy went missing on a hunt in a big storm. All I could think of was finding him, saving him... That's it, are you happy now!"
+  ],
+  #share
+  [
+    "Hey, do you think there are any exotic plants on Dragonspine? Maybe something with a deadly bitterness, or something that numbs your mouth upon contact? I'm going to pick a lot! And then... hehehe-hee-hee..."
+  ],
+  #interesting
+  [
+    "When it comes to butterflies, I'm the best at pouncing on— err, catching them. Hey, not in a fun way! I catch butterflies to add a nasty taste to my cocktails. I'm not a cat! Meow! *hiss*"
+  ],
+  #about-others
+  [
+    "Diluc... I can't stand him! If there was no Diluc, there would be no Mondstadt wine industry; if there was no Mondstadt wine industry, Daddy wouldn't drink; and if Daddy didn't drink... he would keep me company. Ohhhh...",
+    "How is it that even a captain is a disgusting boozehound! You know, that guy who's got that laugh! He downs drink after drink. Ugh!",
+    "Venti? I'm not familiar with him... He's a bard? Oh, he must be that guy who sings tunes to entertain the drunkards. Well, then I don't like him, no no no...",
+    "How come all my fans are drunk middle-aged men, while Barbara's are all young people...? Hmph! So stupid. Forget it!",
+    "Acting Grand Master of the Knights of Favonius... A rare, mature adult who doesn't drink... But perhaps a little too earnest, cause is it just me, or are the Knights overdoing it a bit on protecting me? Hm!",
+    "Alchemy genius? Hmm... I wonder if he knows of a way to finally help me make a drink that people don't like?",
+    "Lisa is so nice and gentle! But... how can such a gentle person also be a regular drinker!? Ohhhh... Why!? ...There's really no hope for Mondstadt, is there?",
+    "Xiangling once gave me a \"so-awful-it-goes-with-nothing\" food combination she came up with, saying how it tasted absolutely terrible, blah blah blah... It didn't work, no use at all. All my little cat ears heard that night was \"One more cup of that good stuff!\" *sigh*",
+    "Every time Klee wants to play with me, I take her somewhere far from the tavern. Alcohol and explosives... yeah, that's a dangerous combination! I mean, do I want to destroy the wine industry of Mondstadt? Yes, but not in that sense!",
+    "I adore my daddy more than anyone else! He's the greatest! But... Daddy after he drinks, ugh... Argh! I must bring an end to the wine industry of Mondstadt, and soon! No time for chit-chat!"
+  ],
+  #hobbies
+  [
+    "I enjoy hunting. I'm especially good at tracking down prey! But Daddy says that the wild is dangerous. One should only go deep into the forest with a reliable adult. ...You're a reliable adult, right?"
+  ],
+  #troubles
+  [
+    "How, oh how can I make awful-tasting drinks...? I had high hopes for the soy sauce, milk, Jueyun Chili, and Dandelion Seed cocktail — my most nightmarish combination to date! But even that was met with praise at the tavern. \"This is Little Diona's best drink yet...\" Grr! But I won't give up..."
+  ],
+  #food
+  [
+    "I like, no, LOVE to eat fish! The fish Daddy cooks is the best, a purrfect main course! ...But eating fish as drunk food, that's absolute blasphemy!",
+    "Carrots, potatoes, onions, tomatoes... I don't like the taste of any of those vegetables. ...In fact, I don't eat vegetables at all!"
+  ],
+  #birthday
+  [
+    "Here you go — fried fish with my special sauce! ...Relax, I didn't add anything strange! My cooking is actually really good when I want it to be — stop talking and try it already! Hmph... that's better... Oh, and uh, happy birthday."
+  ],
+  #ascension
+  [
+    "A cat's eyes can see even the most elusive prey in the dark.",
+    "A cat's ears can hear even the softest footsteps on the ground.",
+    "A cat's legs can climb even the tallest tree in all of Teyvat.",
+    "A cat's nose can smell those people they are familiar with and like... Ahh!? You're mistaken, how could I say something like that... Ohh..."
+  ]
+]

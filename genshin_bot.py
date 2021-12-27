@@ -50,6 +50,12 @@ def make_character(person):
         character = Character(voice_lines.noelle_lines)
     elif person == 'thoma':
         character = Character(voice_lines.thoma_lines)
+    elif person == 'fischl':
+        character = Character(voice_lines.fischl_lines)
+    elif person == 'xiao':
+        character = Character(voice_lines.xiao_lines)
+    elif person == 'diona':
+        character = Character(voice_lines.diona_lines)
 
     return character
 
