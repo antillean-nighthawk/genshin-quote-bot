@@ -1474,3 +1474,185 @@ diona_lines = [
     "A cat's nose can smell those people they are familiar with and like... Ahh!? You're mistaken, how could I say something like that... Ohh..."
   ]
 ]
+
+chongyun_lines = [
+  #hello
+  [
+    "My name is Chongyun. My family has practiced the art of exorcism in Liyue for many generations. Fate has been generous in allowing my path to cross with that of your distinguished self. ...Oh, no — my services are free of charge!"
+  ],
+  #chat
+  [
+    "Exorcism uses thaumaturgy and martial arts to conquer evil. There are other means to the same end, but they are not the true way.",
+    "I take my meals cold to quiet the spirit and calm my vital energies. Qingxin-infused water with ice is the most effective.",
+    '"Heart be pure, evil be erased. Mind be purged, world be..." Um... Ugh, I always forget that last part.'
+  ],
+  #weather
+  [
+    "There is no purer form of water than rain. It can aid us greatly in the purging of evil.",
+    "Before the resounding thunder, evil must cower in fear.",
+    "Ah, this weather is delightful.",
+  ],
+  #time
+  [
+    "It is unwise to waste the precious morning hours. Time to train!",
+    "One's spiritual energies are at their peak at noon. We must take that time to practice.",
+    "As the day winds down and the quiet of evening sets in, the atmosphere is ripe for focusing your mind. There is no better time than this for training.",
+    "Whew. What a tiring day. You should get some rest. Don't forget what we agreed — we will investigate that haunted house tomorrow."
+  ],
+  #about self
+  [
+    "Discipline is everything. Unbridled passion can have disastrous consequences. Trust me, I would know. ...Oh, no no no, not from personal experience, of course. Haha... Uh... I'm just stating my observations from what I've seen in my travels around Liyue.",
+    "I was born with something called congenital positivity, meaning I have too much positive energy... Apparently it's so rare it only happens once every thousand generations or so. It means I repel all evil for miles around... *sigh* Actually, that's a bad thing. I must be the only exorcist in history who can't get within ten miles of an evil spirit.",
+    "One of the main symptoms of congenital positivity is excess passion, something which has gotten me into many embarrassing situations. In an effort to alleviate these symptoms, I have to abstain from eating chilis and all hot food. I also have to take a parasol with me everywhere, and I avoid listening to rousing music. I wonder, will I ever overcome my condition for good?",
+    "Waiting for evil to show up at the doorstep will get you nowhere — you have to go out and hunt it down. By purging Liyue of evil spirits, I bring peace of mind to people and also broaden my horizons. If an evil spirit ever bothers you, just let me know. I'll come and help you out right away.",
+    "To permanently banish the forces of evil from the world is my ultimate goal as an exorcist. If that grand day ever comes, I suppose I should be able to consider trying many new things, such as hot springs, Jueyun Chilis, and... partaking in other activities of a more passionate nature. Ugh, what am I doing... Ugh, I shouldn't be dwelling on these things, even thinking about them is too stimulating for me...",
+    "We exorcists have been protectors of Liyue since ancient times, and our techniques have been passed down from generation to generation. Purging evil is second nature to us.",
+    "*sigh* I didn't actually do anything. I just walked into that haunted house, and the problem was resolved... Do you think I should still take payment for this exorcism?"
+  ],
+  #about us
+  [
+    "By now, you must be well acquainted with Liyue's supernatural phenomena. Now, about the evil beings you speak of in lands beyond... I would very much like to see them too.",
+    "Your skills are impressive. When you finish with a hilichurl— I mean, an evil spirit, it is surely banished from this world for good. How about we team up?"
+  ],
+  #vision
+  [
+    "By now, you must be well acquainted with Liyue's supernatural phenomena. Now, about the evil beings you speak of in lands beyond... I would very much like to see them too."
+  ],
+  #share
+  [
+    "There are rumors abound concerning evil spirits in Liyue, but not all have truth to them. In fact, some strange commissions wind up having nothing to do with them at all."
+  ],
+  #interesting
+  [
+    "I have heard there are many strange and rare things sealed within the amber from Mt. Hulao. Could some of them be the fabled demons of which the ancient legends speak? I would love to investigate."
+  ],
+  #about others
+  [
+    "That Zhongli from the Wangsheng Funeral Parlor seems to be quite an incredible man. Just think, common folk might gang up to commit a murder, we exorcists vanquish demons — but he alone buries the bodies of the adepti.",
+    'I do admire Xingqiu for his devotion to chivalry and his martial arts proficiency. However — I must warn you that he definitely has a mean side, too. If you find that you fall foul of any of his antics, come to me and we\'ll form a "Victims of Xingqiu" alliance. There is strength in numbers.',
+    "The Conqueror of Demons himself has defended Liyue side-by-side with we exorcists for generations, day after day, night after night. I have the utmost respect for Adeptus Xiao. It's just... Why must he be so disparaging toward us? He says our repertoire is lacking and our power is trivial. I'm sorry, but I just can't accept that.",
+    'The Wangsheng Funeral Parlor is a reputable institution that acts with integrity. But whenever I see that cheeky smile that says, "It\'s nothing you exorcists need to worry about," it just makes my blood boil... Whoa, deep breaths, Chongyun. Stay calm.',
+    "She looks like a zombie, but as an exorcist, I feel there's... something different about her. Hmm, her name is also absent from all the praised names I've seen... Where exactly does she fit in among the deities?,",
+    "I avoid Xinyan's performances like the plague. That heated atmosphere... Even if you don't intend to get involved, it still... Let's just say that it gets me all hot and bothered.",
+    "Xiangling's cooking is universally praised, but I personally don't touch any of her spicy dishes. Why? Oh, you know — just, uh... personal preference, that's all. I mean, come on, Mushroom Slime Stew... Does that sound appetizing to you?"
+  ],
+  #hobbies
+  [
+    "I like listening to Tea Master Liu's stories. His narration really brings the hair-raising tales of the supernatural to life. Why not come with me sometime?"
+  ],
+  #troubles
+  [
+    "After making numerous inquiries and putting in an enormous amount of effort, I finally tracked down the location of an old haunted temple. So I camped out there for four whole days, ready to exorcise the hell out of that place... And nothing happened. Not even the faintest glimpse of an evil spirit. *sigh* Sadly, this is a regular occurrence for me."
+  ],
+  #food
+  [
+    "Nothing makes me happier than sitting down to an authentic Inazuman meal, ingredients imported of course. After training hard all day, the ice-cold freshness of Inazuman cuisine takes the exhaustion away.",
+    "Anything piping hot and laden with chilies is an absolute no-go for me. The mere thought of a Jueyun Chili gives me hot flashes."
+  ],
+  #birthday
+  [
+    "On the anniversary of your birth, please accept this gift of a flower, made of ice crystals. I carved it myself. If you ever encounter an evil spirit, cast this toward it — the spell I have cast upon it will immediately come into effect and hopefully get you out alive. Also... Happy birthday."
+  ],
+  #ascension
+  [
+    "We often use these materials for thaumaturgy during exorcisms — I never knew they could be used to purify one's own spirit, too.",
+    "Martial arts and thaumaturgy are alike in that there are always new dimensions to explore. Thanks to your guidance, I can see myself making progress.",
+    "Never before have I fathomed such lofty heights of martial prowess! For eye and hand, man and blade to act in unity... Truly, I have been enlightened.",
+    "With all the secrets arts that I have learned, my goal of banishing all evil from the world is finally in view. I will never forget how much you have done for me. Maybe now I even have what it takes to face the flames of my positive energy, and see if I can take the heat."
+  ]
+]
+
+xingqiu_lines = [
+  #hello
+  [
+    "Xingqiu at your service, my liege! I humbly trust that even one such as I, a mere bookworm, may yet prove to be of some utility under your wise leadership. Nice, I don't often get a chance to speak with such formality. It felt pretty good!"
+  ],
+  #chat
+  [
+    "'Twas on a deserted moonlit night that the hero approached the vile dragon's limpid lair...",
+    "I never embark on a journey without a good book to accompany me.",
+    'Now this is what I call, "a moment of solitude."',
+    'Oh my goodness... Oh my gosh... Wow— Huh? "All will be revealed in the next volume"? Aw, drat...',
+    "If my calculations are correct, Wanwen Bookhouse is due to receive a batch of new releases today. Might we add a small detour to our adventure?"
+  ],
+  #weather
+  [
+    "My family makes ornate umbrellas that block neither rain nor shine. Their sole purpose is for decoration upon a wall.",
+    "Good, the rain has stopped. Any longer and my books would have gotten wet.",
+    "Only when it snows like this would I prefer to be at home than in a book store. For there is a well-stocked fireplace at home, while there is no fire is allowed in book stores.",
+    "Great weather for practicing martial arts... But perfect weather for reading. Hey, what's that ridiculous look for? You look as if you're trying to decipher some strange text written on my forehead."
+  ],
+  #time
+  [
+    "Morning! The morn hours are precious, spend them on that which matters to you.",
+    "I am uninclined to eat a heavy meal this luncheon, but instead indulge in some baked treats. As long as I eat in the study, my father and brother never have to know! Oh, you want to join me? Well... As long as you don't get crumbs on the books, I suppose it's fine.",
+    "What say you we snatch a few fireflies and read in the light they give? Hey, I'm joking. Seriously, don't, it's bad for your eyesight.",
+    "You will find me in the same place as ever tomorrow. So I'll see you then. Unless you manage to get lost on the way."
+  ],
+  #about-self
+  [
+    "I always have to put on an act around other people, because they see me only as the second son of the Feiyun Commerce Guild. It's a relief that I can just be myself around you. I think it's because you don't see me in the same way.",
+    "Are you keeping well, my liege? If you have no other matters to attend to, might I recommend a trip to the Wanwen Bookhouse?",
+    "You ask me why I enjoy reading in solitude? ...Studiousness can hardly be considered a bad habit. There's not much more to it than that. Really.",
+    "Your schedule is free today? Wonderful. I am ready to leave whenever you are. ...My book? Oh, never mind that! I can always pick up where I left off when I get back. But those in distress who need our assistance cannot afford to wait.",
+    "You feel inspired, you say? You want to write a martial arts detective novel based on our adventures together? And you want to call it the \"Chronicles of Wanwen\"? Hahaha... It's a good idea, it really is. But I'll have to decline, I'm sorry. Yes, really...,",
+    "\"A weaver of verses who draws from an ocean of expression...\" That's the reputation I aspire to. But you're the only person I can share that with. I am actually writing a novel... but I can't let you see it. Not yet. The time will come, though... You'll be able to read it when it's on sale in book stores all over Liyue."
+  ],
+  #about-us
+  [
+    "I would say we are book buddies. Huh? Combat? Guhua Clan? Comrades in arms? ...What on earth are you talking about? I told you that's our little secret!",
+    "We should become sworn siblings, let's go to the altar at Jueyun Karst. Nope, no ifs, no buts, you know too much about me! You know the real me, the one I normally have to hide. I simply can't let you go until you promise me you will go through with it!"
+  ],
+  #vision
+  [
+    "There aren't many records on matters concerning Visions, but I do have a passage dedicated to the topic in my collection of ancient texts. I can lend it to you if you want.",
+    "I've come to an epiphany based on some things I've been reading — ultimately, the arts of both the polearm and the sword are just the art of the \"eye.\" Ugh, it's a little difficult to explain... If you want to know more, come with me to Wangshan Hall. But first, you have to promise me you won't laugh."
+  ],
+  #share
+  [
+    "Must-see places in Liyue? That's a tough question. Hmm... The place I would miss the most if it disappeared would be Wanwen Bookhouse, first and foremost. The Guhua Sect would be in the top ten, too."
+  ],
+  #interesting
+  [
+    "I used to like rabbits, but I'm more a fan of stags now. To me, the saying \"May my final stand be a monument to chivalry\" is about abandoning worldly possessions and reaching enlightenment. But the stag's final resting place represents the hope for life anew. Oh, how I'd love to see it again"
+  ],
+  #about-others
+  [
+    'I have great respect for Lady Beidou. I just wish she wouldn\'t call me "kid" and ruffle my hair each time she sees me.',
+    "In her capacity as the Tianquan, I am obliged to respect her. Otherwise, it could create issues for my father and brother. On a personal level? Let me think... I think I will go with \"no comment,\" I shan't speak ill of others.",
+    "Ah, dear Chongyun. Though he understands me quite well, one has to exercise caution when teaming up with him to go on a quest. He is making good progress in the martial arts, but I would say he hasn't quite internalized the chivalric code yet... He needs more practice. Especially at eating spicy food.",
+    "When Yun Jin drinks a beverage she is fond of, she will be inspired to write a new play. So, I keep a jar of tea leaves under my bed at all times, ready to deliver to her on the day that her inspiration dries up. This way, I shall never run out of heroic tales to listen to!",
+    "Ah yes, the young lady who is now the Director of the Wangsheng Funeral Parlor. If you're asking what I think about her as a person... Well, there are all sorts of rumors about the way she works. But I think if you really want to understand someone, you need to find out what they are really after.",
+    "I've always thought that there is more to Qiqi than meets the eye. But it's impossible to have a conversation with her when Baizhu's around. Hmm... We could wait till Baizhu makes a home call to one of his other patients and corner her...",
+    "When you first spot Xiangling out and about, the first thing you should do is check the look on her face. Especially when she's just coming back from collecting new ingredients — the more excited she looks, the more dangerous it is to approach. Because if she sees you, she'll force you to taste-test her latest concoction... I usually get Chongyun to handle these situations, hehe...",
+    "Where does Xinyan perform? Anywhere from Chihu Rock to Yujing Terrace — no spot is untouched by her disruptive presence... A quiet day when I can curl up with a good book is a rare treasure indeed.",
+    "I've thought of all the illustrations I want for each of the major event in the next three volumes! I should write my thoughts down before I forget them, and send them to Mr. Kreideprinz...",
+    "My father and brother entertained that gentleman as a guest once. From the way they were acting, he must be a very high-profile figure indeed. I also heard that he directs funerals for adepti, so he must surely have some inside information. We should do some digging and see what we can find out about him!",
+    "I find that Miss Shenhe seems to look at me somewhat fiercely, so I daren't approach her lightly. Bizzare, did I inadvertently upset her? Or maybe... upset someone close to her?"
+  ],
+  #hobbies
+  [
+    "Evidently, my hobby is reading. I'll read anything and everything. ...What's that mischievous grin for? Oh. That's between the two of us, okay? It's not appropriate to discuss it out loud. There's no point in bringing it up anyway"
+  ],
+  #troubles
+  [
+    "What annoys me? Hmmm... Well, one day my brother will inherit the family business. What will happen to me then? I fear my current carefree existence would... Oh—no no no, it's not about my status or anything like that. I don't care for that kind of thing. I think my brother is something of a simpleton and I would probably end up having to do most of his job for him..."
+  ],
+  #food
+  [
+    "I like baked goods and Yue-style seafood. Probably because I'm used to quite a bland diet at home.",
+    "I hate carrots. When I was young, my mother would mash them up into... Ugh, I can't go on. Just thinking about it makes me feel sick..."
+  ],
+  #birthday
+  [
+    "May this day of your birth be filled with much mirth!",
+    "According to historical records, Tiancheng's stone bridge was formed by a fallen rock spear thrown by the Geo Archon Morax in battle. If you walk along the bridge on your birthday and throw some Mora into the sea from both sides, you will be blessed in the coming year... Your birthday only comes once a year, so be quick about it if you wanna go... I'm not kidding, it's true! Go try it and you'll see!"
+  ],
+  #ascension
+  [
+    "Were it not for my capability, the cause that so inspires me would remain confined to the pages that extol its virtues.",
+    "Had I no moral compass, my efforts would have been misguided. Doomed to grasp at shadows while missing the substance, I would have become a philistine that seeks only violence.",
+    "There is a cause that I seek to champion, yet few in Liyue share my aspiration. This I have known for a long time, for it is a path I have walked for many years.",
+    "I am most grateful for your company on my journey. I am proud of my achievements, both in the martial arts and in championing the cause so dear to my heart. ...Ah, I guess there's no need to euphemize any longer. Chivalry! That is the cause that inspires me, and that I seek to champion. Why should I shy away from it, I am sure my father and brother are under no illusion as to what I stand for by now. ...But of course, I still need to be somewhat discreet in the way I go about my business."
+  ]
+]

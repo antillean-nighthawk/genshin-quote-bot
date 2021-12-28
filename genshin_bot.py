@@ -56,6 +56,10 @@ def make_character(person):
         character = Character(voice_lines.xiao_lines)
     elif person == 'diona':
         character = Character(voice_lines.diona_lines)
+    elif person == 'chongyun':
+        character = Character(voice_lines.chongyun_lines)
+    elif person == 'xingqiu':
+        character = Character(voice_lines.xingqiu_lines)
 
     return character
 
