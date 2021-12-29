@@ -1656,3 +1656,188 @@ xingqiu_lines = [
     "I am most grateful for your company on my journey. I am proud of my achievements, both in the martial arts and in championing the cause so dear to my heart. ...Ah, I guess there's no need to euphemize any longer. Chivalry! That is the cause that inspires me, and that I seek to champion. Why should I shy away from it, I am sure my father and brother are under no illusion as to what I stand for by now. ...But of course, I still need to be somewhat discreet in the way I go about my business."
   ]
 ]
+
+ayaka_lines = [
+  #hello
+  [
+    "Master of Inazuma Kamisato Art Tachi Jutsu — Kamisato Ayaka, present! Delighted to make your acquaintance"
+  ],
+  #chat
+  [
+    "I only wish life could be as leisurely as this a little more often... How greedy of me.",
+    "A blade is like a tea-leaf. Only those who sample it many times can appreciate its true qualities.",
+    "So this is a day in the life of the Traveler... Hehe, I'm learning more about you all the time.",
+    "A blade embraces its duty as a jeweler cherishes their gems."
+  ],
+  #weather
+  [
+    "Come with me, let us find shelter from the rain.",
+    "Her Excellency... What is she trying to communicate?",
+    '"Snow that once adorned the world in silver, thaws to reveal the gleam of the fruit upon frost-laden branches." *sigh* How picturesque! Only some tea would make this setting more complete.',
+    "There's a pleasant breeze and glorious sunshine... So, where shall we go for a walk?",
+    "Close your eyes and face the wind... It feels wonderful, doesn't it?"
+  ],
+  #time
+  [
+    "Oh, good morning, Traveler. ...Whenever I see you in the morning, somehow, it makes me feel like... today is going to be a good day.",
+    "Good afternoon. It is normal to feel drowsy after lunch, might I interest you in a game of Go to stimulate the mind?",
+    "Greetings. An auspicious breeze blows this evening. Tonight will be peaceful.",
+    '"Was it one\'s thoughts that drew him to my dreams? Had I known it a dream, one would not have awakened." Hehe, I love that poem.'
+  ],
+  #about-self
+  [
+    '"Inazuma Shogunate, Yashiro Commission, Kamisato Clan." Widely known as one of the most distinguished clans in all of Inazuma, it is the branch of the Tri-Commission that manages ceremonial and cultural affairs. Since my parents passed, Brother and I assumed responsibility for all clan matters, big and small.',
+    "Many look up to me as the Shirasagi Himegimi and as the daughter of the Kamisato Clan. But the object of their respect has everything to do with my position, and nothing at all to do with me, Ayaka. It makes me think that... maybe, there is only one person I know who is truly able to get close to me...",
+    "Today, as in the past, I aspire to be somebody whom everyone can trust. But what motivates me is no longer the responsibilities I shoulder, or the expectations of other people. Rather, it is the fact that you are this kind of person, too.",
+    "Your request is quite unusual for me. Since I see you as a friend, it would only be fair to be open and honest with you, but if this means sharing secrets of the Kamisato Clan... I would ask that you keep anything I tell you in strict confidence.",
+    "The Kamisato Clan once suffered a major blow when we failed to protect a swordsmith of national significance. We were harassed by the Fatui, we lost many of our people, and we received a great deal of criticism. It all aged Father greatly, and severely damaged the Kamisato Clan's standing within the Shogunate. Brother has worked tirelessly to reverse the trend since he assumed leadership, but although our clan's position is now restored and the Yashiro Commission is unified once more, we still rely on Brother to make the decisions on all matters of any importance.",
+    "The art of blade forging taught by the Shogun varies based on astrology, application, materials used, the furnace conditions, individual personalities, and elemental changes. These differences between smiths is what gave rise to the Raiden Gokaden. Swordsmiths capable of forging renowned blades are seen as spiritual personnel with sacred abilities, and as such they should be managed by the Yashiro Commission, which oversees all cultural, artistic, and ceremonial affairs. So naturally, the swordsmith's betrayal is the fault of ineffectual management by the Kamisato Clan.",
+    "My mother was the most incredible person. She was always so dignified and elegant, always smiling, no matter what situation she might be facing. She had so much to deal with in the clan on so many levels, but she took it all in stride — it was like nothing could ever faze her. Everything about her was perfect, and I say that without exaggerating. *sigh* But the moment she passed away, I realized... I couldn't hide behind my mother any longer. I wasn't little Ayaka any more.",
+    "What I want to say next is perhaps not befitting of a member of the Inazuma Shogunate, Yashiro Commission, Kamisato Clan, but... unless I am mistaken, I trust that you will not take issue with this slight departure from convention on my part...That is to say... I'm a little tired, may I rest my head on your shoulder? Just for a moment."
+  ],
+  #about-us
+  [
+    "If you've got time, shall we take a walk to Komore Teahouse? To chat about the art of tea on a pleasant day like this seems like the sophisticated thing to do.",
+    "If I ever have the chance, I would very much like to experience the festivities of another nation with you one day. Though, I will need some guidance on local customs and etiquette, and advice on what gifts to bring... Could I trouble you to give me some guidance?"
+  ],
+  #vision
+  [
+    "Visions are a seal of approval for those who are most ambitious. As for my own ambitions, they shall remain private for now. It is nothing more than an insignificant dream."
+  ],
+  #share
+  [
+    'It is said that "the flavor of Zen is that of tea," and it is also said that "the power of Zen is that of the blade." One might then ask: What does that say about the relationship between tea and the blade?'
+  ],
+  #interesting
+  [
+    "Have you ever noticed the withering sakura tree in the city? For me, there is a beauty to the withering, it brings back fond memories of the spring. Most people don't agree — sakura trees that will never bloom again are removed. But when I look at a tree, all I want is to see it blossom again... just one more time..."
+  ],
+  #about-others
+  [
+    "Thoma is a dear friend. He always lifts my spirits with his sunny disposition. In a sense, I think of him as another brother, and as a full member of the Kamisato Clan.",
+    "Kujou Sara of the Tenryou Commission is... not known to smile, and I have had my fair share of disputes with her. She is, however, a loyal servant to Inazuma, there is no question about that.",
+    "Mr. Shikanoin belongs to the Tenryou Commission, just like Miss Kujou. He is very... principled, sometimes even more determinedly so than Miss Kujou. The only thing is, when it comes to the question of which matters should be governed by his principles, I believe only Mr. Shikanoin himself knows the answer...",
+    "Ah, little Sayu. She hasn't been causing you any trouble lately, has she? Hehe, if you ever notice her slacking off, please let me know.",
+    "The Almighty Shogun? It would be improper of me to comment, given that I am one of her subjects. All I will say is that... I think that Her Excellency must get lonely on the road to eternity.",
+    "To witness the Musou no Hitotachi and live to tell the tale is quite a remarkable feat. Even though I recognize her as our true deity with the power to change Inazuma's fate at will, if there is conflict between the two of you, then... I shall choose to side with you.",
+    "I have always greatly enjoyed working with Guuji Yae. Organizing festival affairs generally takes a lot of effort and doesn't generate much income, but Guuji Yae's events always come off both elegant and profitable.",
+    "As the head of the Kamisato Clan, brother always has a full schedule of places he needs to be. I do try my best to share his load, but there is no changing the pressure he is subjected to all year round, and the toll it takes upon him. *sigh* If you see him, remind him to take care of himself, for his sister's sake...",
+    "The Yashiro Commission and the shrine maidens are responsible for festival affairs, and Yoimiya, as a fireworks expert, knows how to create an atmosphere. So we have become well acquainted with her over the years. Hmm? Public order and fire prevention? We factor these concerns in well in advance during the planning stage. To deny people the chance to see fireworks simply for these reasons would leave them feeling very disappointed."
+  ],
+  #hobbies
+  [
+    "I have great affection for the arts: music, song, poetry, shougi, and dancing. And you?"
+  ],
+  #troubles
+  [
+    "Troubles? Well, I mean... that's life, isn't it? There will always be things that don't go one's way. But I do not wish to worry those around me on account of things that are my concern alone... so, it is best if I keep them to myself.",
+    "Openness is something I find very difficult. I constantly have to remind myself that as a lady of the Kamisato Clan, there are countless people watching and countless expectations to live up to. I must be a model of exemplary conduct at all times. But even so, shouldn't I still follow my dreams? Shouldn't I... share my true feelings with you?"
+  ],
+  #food
+  [
+    "I'm fascinated by food from overseas. Though I don't get to try it very often... So, if I had to choose something from Inazuma, then probably... Chazuke. But not when anybody else is watching... So I tell you that in confidence.",
+    "Though I do not eschew animal fat and organs entirely, they are far from my first choice."
+  ],
+  #birthday
+  [
+    "Come with me! We're not going far away — I promise it won't delay you too much. I managed to find out when your birthday was well in advance, so I could prepare in good time. Hopefully this wasn't assuming too much, but I guessed you might prefer this to an expensive gift. In honor of your birthday, please allow me to perform a fan dance for you."
+  ],
+  #ascension
+  [
+    "Thank you very much. It has been richly rewarding to learn from you so far, and I believe my skills with the blade can go even further still.",
+    "Thank you for your guidance. With your assistance, I am gaining a more thorough understanding of my capabilities.",
+    "I feel more competent now than ever before. I even have the time outside my work for the Yashiro Commission to try some new things. Would you like to try one of my home-made snacks? I just learned how to make them recently.",
+    "\"Though I cling to that which has given me the strength to hold on, the weight of letting go is ever-foreboding.\" My apologies, it should be a happy occasion, and yet it is such a sad phrase that comes to mind. Our time together has been so pleasant that I am fearful of losing what I have gained. I'm sorry, I must compose myself."
+  ]
+]
+
+lisa_lines = [
+  #hello
+  [
+    "Hi darling, are you going to be Lisa's little helper? What? Me, a grand mage? That was a long time ago, I'm just a humble librarian now. *chuckles* Don't worry darling, I'll take very good care of you. So..."
+  ],
+  #chat
+  [
+    "It's nearly time for afternoon tea.",
+    "Why not keep me company for a while... There'll be plenty of time for work later.",
+    "Today's no good for going out... Hmm... Did I say that yesterday as well?"
+  ],
+  #weather
+  [
+    "*sigh* Perfect weather for sipping a cup of tea while gazing out the window.",
+    "When I practice my spells in weather like this, I can do half the work for double the impact. Haha, I'm just teasing.",
+    "Such a calming breeze... Perfect for taking a nap, don't you think?"
+  ],
+  #time
+  [
+    "*yawns* Good morning, Jean... Oh it's you! Sorry, dear.",
+    "It must almost be time for a nap...",
+    "You're still up? I'm getting sleepy...",
+    "I can see how hard you've been working today. Let me think of a way to reward you..."
+  ],
+  #about-self
+  [
+    "So, which element would you like to learn about today?",
+    "My past? So, you want to get to know me a little better, huh? *chuckles* That's a story for another day. But I'm touched that you asked.",
+    "When I taught Razor how to utilize Elemental Energy, I never expected him to master the technique so quickly. Come to think of it, you're talented too. Maybe I could teach you a few tricks...",
+    "What's that? You want to learn some Sumeru Academia magic? I'm afraid it might too much for you to handle right now... Hmm, though I suppose it can't hurt to teach you some of the basics. Here, start by reading the beginner's guide, it's only 800 pages or so.",
+    "A Vision may seem like a great tool, but one day, the power one accumulates always finds a way to turn back on you. Should such a day come for me, so long as you're around... Ah, never mind.",
+    "I'm not lazy, I just know to save my energy for when I need it most."
+  ],
+  #about-us
+  [
+    "I can be your teacher, your master, or your friend... or all three if you want...",
+    "Let me show you a thing or two, lest we let your efforts go to waste. *chuckles*",
+    "Wait, one last thing... A kiss on the forehead from master to follower. Now you're my star pupil."
+  ],
+  #vision
+  [
+    "Visions? Ah, they're a necessary device in controlling the elements — with you being the sole exception, of course. Hmm... As for why that is, perhaps... we can find the time to experiment a little?"
+  ],
+  #share
+  [
+    "Feel free to use the alchemist's upstairs from the library whenever you want. But make sure you knock first, we wouldn't want you seeing anything you're not supposed to, now would we?"
+  ],
+  #interesting
+  [
+    "Calla Lilies are a medicinal flower with antidotal properties. With them in hand, there's no need to worry about the side effects of any potions... Hehe."
+  ],
+  #about-others
+  [
+    "Jean is a gifted and dedicated leader. Seeing how hard she works makes even me want to help her out.",
+    "Amber was just a young girl when she joined the knights, and in the blink of an eye, she's turned into such a strong young lady. I'm curious to see what she'll be like a few years from now.",
+    "Have you heard Barbara sing before? Her angelic voice contains a magical healing energy. A different kind of magical energy from the one in my potions, of course. I wonder which one you prefer?",
+    "You want to know about Diluc? Haha, in that case, I know someone else you should talk to.",
+    "Come on Razor, that's it, good boy! Let's do some combat practice — I've found you the perfect partner. Hey! Come back!",
+    "Last time little Klee wanted to use my workshop for her experiments, I had to say no, and she was angry at me for the rest of the day. *sigh* What happened the next day, you ask? She went off happily to play outside of course.",
+    "Mona? She seems to be an excellent mage, but I'm not a part of their Hexenzirkel. The idea of Irminsul exploration and formal tea parties just leaves me cold.",
+    "Albedo is quite the alchemist. Just say the word and he'll come up with a good solution. He's easy on the eyes too, just like you.",
+    "Fischl, yes, she's always in the library looking to borrow fantasy novels. She always returns her books three days early and looks after them very well. She's a good kid.",
+    "Every time I ask Noelle to dust off the bookshelves, I'm always left with the sense that the more exhausted I make her, the happier she becomes. Yes, who knows what's going on with her... *chuckles*",
+    "Try not to bother Sucrose if you're at a loose end, you'll only startle the poor girl. She's gifted at interacting with all sorts of exotic creatures — just hopeless when it comes to humans."
+  ],
+  #hobbies
+  [
+    "Hey darling, would you like to try one of my magic potions? There's no knowing what it will do to you until you try it, though... Don't say I didn't warn you!"
+  ],
+  #troubles
+  [
+    "The interrogation room upstairs has sat there unused for two years now... It would be a much more lively place if Hertha would agree to let me use it as my private workshop... *sigh* She's such a spoilsport."
+  ],
+  #food
+  [
+    "I like making my own vegetable soup. I put a big bunch of vegetables into a cauldron and stir it with a long spoon. What does it taste like? Here, why don't you try it for yourself. Open wide!",
+    "I suffer from extreme pumpkinphobia. The fall harvest is a difficult time of year for me, as you can imagine. I wonder if it would be worth the trouble to make all the pumpkins in the world disappear..."
+  ],
+  #birthday
+  [
+    "Here, take this amulet, it will bring you good luck. It's my birthday gift to you. I spent a long time making it, so don't lose it now!"
+  ],
+  #ascension
+  [
+    "Surely you don't want me working overtime... That would be no good.",
+    "Chances to practice should be left to you newcomers, no?",
+    "*chuckles* If I were to recover my full power, who knows what kind of things just might happen?",
+    "I've already tried to persuade you every way possible... *sigh* Have it your way, cutie. I can no longer go on pretending at this point - Even a Hilichurl would see through the act. So be it, let me introduce you to the true Witch of Purple Rose."
+  ]
+]
