@@ -1841,3 +1841,182 @@ lisa_lines = [
     "I've already tried to persuade you every way possible... *sigh* Have it your way, cutie. I can no longer go on pretending at this point - Even a Hilichurl would see through the act. So be it, let me introduce you to the true Witch of Purple Rose."
   ]
 ]
+
+xiangling_lines = [
+  #hello
+  [
+    "Hello, nice to meet you! My name is Xiangling, I'm a chef from Liyue! My favorite place is the chicken... I mean, the kitchen! Ugh, I practiced so hard, but I still get nervous when introducing myself... Hee hee."
+  ],
+  #chat
+  [
+    "Is there time for a quick snack? I'll whip one up in no time!",
+    "I can't decide whether Pyro slimes taste better with salt and pepper or garlic and herbs?",
+    "If there's nothing better to do, we could go foraging for ingredients?"
+  ],
+  #weather
+  [
+    "Oh... I don't like the rain.",
+    "Wait... did I leave my apron outside to dry?",
+    "The rain has stopped! Come with me, let's pick some matsutake.",
+    "Anemo slimes always come out in this weather, if you catch some, I'll make you a Slime Slushie!"
+  ],
+  #time
+  [
+    "Perfect timing! Want to get a few cooking supplies?",
+    "Lunch is ready! Come and get it while it lasts! *munching*",
+    "You're just in time for a midnight snack, I made some barbecued lizard skewers! Well, don't just stand there — dig in!",
+    "Hey! You're not sneaking off to get a midnight snack without me, are you? ...Bedtime? Oh. Well, good night then!"
+  ],
+  #about-self
+  [
+    "You've seen the dragon in Mondstadt? How big was it? What!? No way! Imagine how big a steak a dragon that huge would make!",
+    "Roasted pigeon skewers, anyone? C'mon, it's my secret recipe, you'll love it!",
+    "My mentor did a good job teaching me spear fighting, don't you think? If you want, I could teach you too. Although... I'd much rather teach you my cooking, if you're interested! I want my recipes to spread all around Teyvat!",
+    "My heart's desire? To start my very own cooking tradition, of course! Li-style and Yue-style cooking are good, but they have a limited palate. The missing ingredient? Chilli pepper! Come, let me fry up one of Guoba's chilli peppers for you...",
+    "I think I've won you over with my cooking now, right? It's time to introduce you to my latest masterpiece — I call it \"the most marvelous multi-colored super pancake\"! Bright red squirrel ham, orange carrot, yellow sunfrog meat, green calla lily and blue butterfly wings, beautifully wrapped up in a thin egg pancake— What? I thought you said you were starving? *sigh* okay.",
+    "I'm in a dilemma and I don't know how to solve it... It isn't like me to get so worked up over nothing... Ah! Well, here's the thing. I always love getting you to try my latest recipes, but... I'm worried that my food might not agree with your stomach and... I can't bear the thought of that happening. What should I do?"
+  ],
+  #aoubt-us
+  [
+    "I'm much better at cooking than navigating... but if you do go out, definitely take me with you!",
+    "Meeting you has really opened my eyes to things other than cooking. Like what? Well, such as... um... for example... I can't think when you put me on the spot! Forget it, I'll stick to cooking from now on. I have a new recipe for you to try, actually..."
+  ],
+  #vision
+  [
+    "Any time, night or day, I am always willing to make dishes everyone loves. I think the Archons agree with my passion, or else they wouldn't have given me this Vision, something even my master doesn't have... I know they want me to keep going!"
+  ],
+  #share
+  [
+    "If you get a stomach ache, a cup of herbal tea with Silk Flowers will clear it up in no time! Huh? Of course you can trust my herbal remedies! We chefs are expected to know a thing or two about medicine as well, you know!"
+  ],
+  #interesting
+  [
+    "I love onions! I've tried cutting them dozens of ways, and they still make me cry... No matter, I still love them!"
+  ],
+  #about-others
+  [
+    "I can smell Mist Flowers! It must be Dr. Baizhu! What is he doing here? Uh-- Are you okay? Do you feel faint? Is your stomach sore? Or is it a sore throat? I've got it, you're fatigued from all that adventuring! No?... You're fine? Phew! Otherwise, he would have made you drink some traditional herbal medicine — it's so bitter!",
+    "That was the Tianquan! Did you see? She just walked past. Come here... closer... Let me tell you, she knows everything that happens in Liyue, so... keep a low profile, don't attract her attention!",
+    "Is Hu Tao picking on you too? Ugh, that prankster always waits till I least expect it, creeps up on me from behind and then... Boo! ...then laughs herself silly. Hmph. But I can handle it, and she does bring me fermented plum blossoms once in a while so I can make flower cakes... so I don't hold a grudge.",
+    "Diona, from Springvale! Ah, I heard she mixes a great drink, so I came specifically to see her! I thought perhaps I could use her secrets in my cooking, and bring out more flavors. But the tips that she gave me — like soaking lizard tails in beer, or putting bits of smoked fish in dandelion wine — all came out really awful. *sigh* Guess it's up to me to work it out myself, then.",
+    "Oh, Beidou is the greatest! Every time I go out sailing with her, she always manages to fish up lots of fresh ingredients! Octopus tentacles go great in soup, and seaweed fries up great with some chilies. *giggle* Not just Beidou, but everyone on board the Crux loves my cooking.",
+    "I've come across a lot of fussy eaters, but Mr. Zhongli is very particular and has no problem getting straight to what he has to say. The first time I served him salt and pepper tofu, he took just one bite, and then proceeded to say: \"It would be better to try sea salt extracted from the shallow seas of Guyun Stone Forest, because it would bring a fresh sense of depth to the tofu.\" I tried it and the taste was just so different! He's just amazing, don't you think!?",
+    "Chongyun? I always see him on his way to eat at Wanmin Restaurant with Xingqiu... Ah... or perhaps I should say I see him being dragged there by Xingqiu? Chongyun doesn't eat hot food. Every time the hot food arrives, Xingqiu politely apologizes and proceeds to try every dish. I just wanna dig in with him! The look on Chongyun's face is priceless. They're quite interesting, those two.",
+    "Ganyu? Oh... Oh yeah! I remember her — vegetarian, right? She doesn't come to the Wanmin Restaurant very often — but when she does, she sits alone in the corner and eats her meal in total silence. Poor girl, she seems kinda lonely... I always give her an extra-large portion because I feel sorry for her. Funniest thing is, she eats every last bite, every time! I wouldn't have guessed she had such an appetite just by looking at her.",
+    "Hee-hee, I'm proud to call her a fellow chef! She hasn't swung by the Wanmin Restaurant in ages, though. Maybe our teacher is trying to protect her from me or something... Last time we hung out I was about to tuck into some fresh raw octopus from the Sea of Clouds, but not only did she stop me from eating it, she sent our teacher to tell me off too! Hmm... I'm older, so I'd always seen myself as the senior chef out of the two of us, but sometimes, I'm really not so sure...",
+    "Xinyan always comes to the Wanmin Restaurant for a late-night snack! She gobbles up all the new dishes that the likes of Xingqiu and Chongyun don't go near... and nine out of ten times, she enjoys them too! She's great."
+  ],
+  #hobbies
+  [
+    "Watch carefully! Heat the oil in a pan, then take a handful of crystalflies — wings removed — pop them in, and voila! Delicious deep-fried crystal— Hey! Where are you going?"
+  ],
+  #troubles
+  [
+    "It's been a month and I still haven't sold a single bowl of Mushroom Slime Stew. Gee, is it just because it looks sticky and gooey? It's their loss if they don't have a spoonful..."
+  ],
+  #food
+  [
+    "My favorite thing to eat is... whatever exotic ingredient I haven't tried yet! No, I'm not dodging the question, that's my honest answer!",
+    "I'll eat absolutely anything! There are no bad ingredients, only bad cooking!"
+  ],
+  #birthday
+  [
+    "Ah, there you are! Come with me, I've prepared a birthday feast all for you! ... No really, I insist! Which dish is your favorite? It's okay, take your time, try them all first, then let me know!"
+  ],
+  #ascension
+  [
+    "Oh wow! This feels great! My whole body is bursting with energy!",
+    "Hey! Ha! Hua! I can slay a beast with one punch, locking in that freshness!",
+    "Finally... with this power, I can cook... *giggle* ...Oh no, I've started salivating!",
+    "As my mentor always says: \"To make a five-star dish, you need ten-star passion!\" I know, I know! To be able to come this far is definitely thanks to your ten-star passion when it comes to practicing with me, so I'll be sure to pay you back with two-no, three times the passion!"
+  ]
+]
+
+mona_lines = [
+  #hello
+  [
+    'I am Astrologist Mona Megistus, meaning "The Great Astrologist Mona." If it is divination you seek from me, then I ask you respect my name by learning it wholly, here and now.'
+  ],
+  #chat
+  [
+    "Divination is about precisely foretelling one's written destiny. Over-embellishing that fate only leads to misconception.",
+    "Astrologers must rid themselves of material desires. Only by ridding oneself of clutter can one see the true world around them.",
+    "Fate is called as such, for it cannot be changed, nor can it be reversed. It can only but be accepted."
+  ],
+  #weather
+  [
+    "With rain this heavy, not only are the stars clouded, so too is my scryglass hazy.",
+    "Which of the starry skies do these thunderbolts fall from?",
+    "The pure waters of melted snow are optimal for hydromancy.",
+    "One need not scry to know today's weather will be good."
+  ],
+  #time
+  [
+    "Your arrival is untimely. The morning star has just waned... Breakfast? No, I—I've already eaten.",
+    "Noon is upon us, we should eat. Hm? I... I will have a salad, for simplicity is the way of the astrologer.",
+    "Nightfall has arrived. I will soon be able to begin my divination. Ah... did I finish writing my astrology column last night...?",
+    "It's already so late, and I'm no further along on finishing tomorrow's astrology column. What? You're off to sleep? *sigh* I wish I could sleep now too..."
+  ],
+  #about-self
+  [
+    "The work of the astrologer is to show people what fate has in store for them, and that's exactly what I do. There will always be those however, who are unable to accept what they are told.",
+    "You want to chat... for fun? Oh... I don't usually have spare time for such activities, especially when I have so many columns left to write... Then again, since it's you, it might be worth it. Hehe, a change of pace once in a while isn't such a bad thing.",
+    "Income? From astrology...? You can't use... things like Mora to determine the value of astrology! You need to understand: hydromancy is the one and only means of discerning people's true destiny in the whole of Teyvat! No matter how much Mora or gems you might have, the value of fate is quite incalculable! Perhaps not the smartest question you might have had for me...",
+    "You want me to explain how astrology works? I'm not sure you'd understand even if I told you. But since you ask... The method I use is called hydromancy. The art of inferring fate from the illusory reflection of the stars on the water's surface. The inverted reflection in the water is an image of the heavens from within which the truth of our world can be observed. ...It is the one and only success story of that old lady's research endeavors.",
+    "Mona Megistus, the Astrologist — we came up with that name together, the old lady and me. She said it had a nice ring to it... But then she started calling me 'Meg' for short, which I hate, because obviously 'Mona' is already sufficient for a shorter name — No! You are NOT allowed to call me that, it's embarrassing! Gah! I knew I shouldn't have told you!",
+    "The golden rule all fortune tellers abide is: never offer advice. Only state the results of the divination. Otherwise, you risk your fate becoming tangled up with that of your subject. But for you, I will make an exception to this rule — because our fates have been intertwined from the beginning."
+  ],
+  #about-us
+  [
+    "Why do I write reports, rather than using my divination to earn Mora? I would never use hydromancy for the sake of Mora, nor did I learn hydromancy for that purpose.",
+    "I don't know. Unless left with no other choice, astrologers do not foretell their own fate. The elders of my art warned against it, for it can turn fate in on itself, which is incredibly dangerous.",
+    "As you are not from this world, I am unable to give you a prediction. All I can tell you is that your journey is far from over."
+  ],
+  #vision
+  [
+    'When I first received my Vision, the elderly woman that gave it to me, she put on this air and said "May your heart of truth be with you." And yet this thing does nothing for my hydromancy, all it does is get me wet.',
+    "That said, a Vision doesn't hurt to have as a little accessory. It is, after all, the one useful study tool that miserly old lady ever gave me, in a rare act of generosity."
+  ],
+  #share
+  [
+    "Do you know about constellations? Astrologers believe that the patterns of the stars map out the destinies of Vision bearers — past, present, and future, everything is written in the stars."
+  ],
+  #interesting
+  [
+    "This... travel companion of yours — do you know anything of her origins? No matter what, I cannot seem to discern a single shred of information regarding this floating fairy's fate. ...Oh? So you don't know where she comes from, either?"
+  ],
+  #about-others
+  [
+    "You mean the Acting Grand Master of the Knights of Favonius? Her constellation is Leo Minor, which represents strength and responsibility shouldered too young... Though the lioness has been separated from her pride for a long time, she grows from strength to strength, and the day will come when she is ready to return as its glorious leader.",
+    "Albedo? Ah... I envy his ability to solely focus on his research without getting bogged down in mundane worldly affairs. What a wonderful life! If that batty old lady hadn't had one too many screws loose, perhaps that's the life I'd be living by now myself...",
+    "Ah yes, Alice's daughter. She's in the custody of the Knights of Favonius, and Albedo looks after her too. She's blessed to have Trifolium as her constellation, which represents good luck. I'm slightly envious... *smirk* Although, if I'd been blessed with good luck, I suppose I never would have had the great honor of running into that old woman, would I...",
+    "Diluc Ragnvindr. His constellation, Noctua, represents vigilance in the darkness of night... A lone guardian keeping watch, longing for the splendor of dawn, yet destined to solitude in the dark days preceding its arrival. ...Or, wait, maybe Noctua's the one tied to wealth...?",
+    "Kaeya Alberich? He's a Pavo Ocellus. Destined for greatness and grandeur... and to hide ugly realities behind a layer of charm and elegance. He believes he has made a clean break with his past, but one day fate will catch up with him. When it does, he will have a major decision to make.",
+    "A Tempus Fugit... The constellation derives its name from the hourglass, and stands for knowledge and time — or rather, the trade-off between them. As each grain of sand falls down, a moment of time — of life, even, dies for good. To stop the unrelenting flow of sand, one would have to turn the hourglass on its side. But once the sand comes to rest, it remains motionless forever... Hmm, maybe 'becomes lazy' is more accurate than 'comes to rest,' in this case.",
+    "Venti? The bard that sits around doing nothing all day? What's so interesting about him? Sure, I guess I can take a look... Huh, that's weird, the scryglass, it's... I can't see a thing... this wind... I can't... open my eyes! No, my hat! Ah! My clothes, stop! The wind's going to strip all my clothes off! Make it stop, make it stop! ...Alright, alright! I'll never do this again!"
+  ],
+  #hobbies
+  [
+    "My hobby? Stargazing! In this all-too-real world in which we live, we all need to look up from the dust once in a while and fix our gaze on the stars, in a spirit of wonder... that, plus the whole thing about me being an astrologer."
+  ],
+  #troubles
+  [
+    "The equipment repair bill is due, and so is the final payment for that celestial globe I ordered... Also, I still need to renew my journal subscriptions, not to mention pay the rent... Hmm, which one to prioritize? ...Ah, I'll pay off the celestial globe first, if I leave it any longer they'll sell out and then I'll never get my hands on one..."
+  ],
+  #food
+  [
+    "Salad. Salad is by far the best food in the world. Cheap to buy, easy to whip up, filling, and it's the most convenient thing there is when you're working on a column or fixing some equipment — I mean, who's got time for a proper dinner anyway?",
+    "You know, all those... overpriced, fancy foods. Personally, I think it's uncivilized and, frankly, dangerous to splash out and indulge yourself every time you have a little hunger pang."
+  ],
+  #birthday
+  [
+    "Happy Birthday. Here's my gift to you — it's a bag containing some words of advice that may help you through tough patches. ...No, don't open it yet. During the year ahead, this bag will open itself when the right time comes."
+  ],
+  #ascension
+  [
+    "This was ordained by fate! Long had I forseen it.",
+    "...One step closer. Maybe soon I shall finally uncover the truth of this world?",
+    "My scryglass has long since preordained all that will take place beneath the stars it reflects.",
+    "In the reflection of the water, I see the ascension of the morning star."
+  ]
+]
