@@ -2020,3 +2020,181 @@ mona_lines = [
     "In the reflection of the water, I see the ascension of the morning star."
   ]
 ]
+
+childe_lines = [
+  #hello
+  [
+    "I'm No. 11 of the Fatui Harbingers, codename Childe, but I also go by Tartaglia. And you... Hmm, you too like to cause quite the stir, don't you? Something tells me we're going to get along splendidly."
+  ],
+  #chat
+  [
+    "You know, there are better ways to seek out our enemies than... well, standing here.",
+    "This place is pretty dead... By which I mean, there's nothing to kill.",
+    "I wonder what the rest of the Harbingers are up to? Plotting and scheming on an ever-grander scale, no doubt.",
+    "Where I'm from, if we didn't keep moving, we'd freeze to death. Literally."
+  ],
+  #weather
+  [
+    "Ah, perfect weather for fishing! The sound of the rain scares them away, but once it stops, they're yours for the taking.",
+    "Haha, ahh... could it be snowing in Snezhnaya too?",
+    "The world looks glorious in the snow. Pure white, like the light of the moon. A perfect backdrop for bloodshed.",
+    "The wind is picking up. There is conflict in the air.",
+    "Just look at that wind blow!",
+    "The wind permeates all, cleansing both mind and body. Excellent."
+  ],
+  #time
+  [
+    "Morning, comrade! You're raring to go today, I see.",
+    "You look well. What's your secret? Care to exchange notes?",
+    "Whew, dinner was quite the feast. A spot of exercise is in order.",
+    "Today was great. See you tomorrow, comrade!"
+  ],
+  #about-self
+  [
+    "A warrior must always be ready to face any challenge with his blade. The outcome of the battle is irrelevant — what matters is that you learn from the experience.",
+    "Remember, comrade, one day I will conquer the world!",
+    "Face me in person, man to man, and I'll always have a chance of beating you. Same goes if you're a deity or a monster from the abyss. But the Harbingers? They are more enamored with their intangible methods, spending their days scheming and maneuvering. This is why we cannot get along.",
+    "However far away my motherland may be, we all live under the same sky. That snow-white moon... My family must be able to see it too. I hope my siblings are well... And I hope that they have turned out to be formidable warriors too.",
+    "Comrade, a word of advice: Don't go yelling stupid things in the heat of battle. They might sound good in your head, but if you think about it, they make no sense at all. I'm talking about things like, \"I'm on fire!\" That's the last thing we want. Fire leaves behind nothing but ashes. And you must survive at all costs.",
+    "Ah, how time flies. One day, you will see how I conquer the world and crush the thrones of gods beneath my heel. In the meantime... no dying, comrade! Keep yourself alive, haha."
+  ],
+  #about-us
+  [
+    "Ah, I'm sure the Harbingers must know of my dealings with you by now. Oh, I'd love to see the look on their faces... Hahaha...",
+    "I am the least adept with a bow. And that is precisely why I must master it.",
+    "You wield such powers without owning a Vision... I really am excited to see what you have in store for us... Let's see how far you can go. Just don't go dying on me before you lay it all on the line in our own final battle! I won't allow it!",
+    "Comrade, how would you like to join the Fatui? ...Actually, scrap that. With your capabilities, you and I could head-to-head with the Eleven and win. Wouldn't want to miss an opportunity like that."
+  ],
+  #vision
+  [
+    "If it makes me stronger, I'll take it. Vision? Great. Delusion? Don't mind if I do. Heretical teachings from the Abyss? Sign me up."
+  ],
+  #share
+  [
+    "The skeletal-white snowscape devours life without leaving any trace. It is the invisible enemy we fight against each day."
+  ],
+  #interesting
+  [
+    "I once ventured deep into the abyss and came face to face with an enormous beast. I don't know its name, all I know is the sight of it chilled me to the bone. But mark my words, one day I will march back in there and behead that beast, and you, comrade, will be my witness!"
+  ],
+  #about-others
+  [
+    "It's been years since I last saw my master. I should hope that next we meet, I'll at least be able to force her to use both hands to beat me...",
+    "There's far more to that man than meets the eye. As for the extent of his power... lots to look forward to, I think.",
+    "Tell me, how has Mr. Zhongli been lately? Not bad, you say? Seems he's had no problem acclimating to \"mortal\" life. Hmph, he sure had me fooled. Such a fiasco mustn't be so easily forgiven! The only way to reconciliation is fierce combat! What do you mean I'm no match for him? Hahaha...",
+    "Her Royal Highness the Tsaritsa is actually a gentle soul. Too gentle, in fact, and that's why she had to harden herself. Likewise, she declared war against the whole world only because she dreams of peace. And because she made an enemy of the world, I had the chance to become acquainted with you.",
+    "Varka? Just the thought of one day going head-to-head with him in combat, the fabled Knight of Boreas himself, titan of the Knights of Favonius... It makes me buzz with excitement. It's a beautiful life we live in this world."
+  ],
+  #hobbies
+  [
+    "Ice fishing and combat follow the same principle. Patience and decisiveness are key. Though having said that... I suppose the same is true of everything in life."
+  ],
+  #troubles
+  [
+    "My pet peeves? Hmm, well, to be honest, I'm far too busy journeying with you and slaying powerful enemies to dwell on such trifling matters."
+  ],
+  #food
+  [
+    "There's plenty of delicious food to sink your teeth into in this world... and plenty of fights to sink your teeth into as well. Life is beautiful.",
+    "Food is like weaponry. A true warrior never deliberates unduly over their choice of weapon, nor do they do so over the food they eat. Neither should you."
+  ],
+  #birthday
+  [
+    "Happy birthday, comrade! Anyone you need knocked off their perch today? Let me know. I'll happily oblige..."
+  ],
+  #ascension
+  [
+    "Ho, I feel like I've gotten stronger! Now, who shall I use as my guinea pig...",
+    '"A warrior\'s strength is like a dome. The bigger the dome, the more opponents he can challenge inside it." Hmm, who was it that said this again?',
+    "Bravo, comrade! Thanks to your help, I am one step closer to my goal of conquering the world. I doubt even the Tsaritsa herself ever expected I would make it this far.",
+    "Comrade. Make sure you keep training too. Otherwise, who will be left to fight me to the death when the world lies defeated at my feet?"
+  ]
+]
+
+diluc_lines = [
+  #hello
+  [
+    "Diluc, of Mondstadt. Not interested in idle chit-chat. If you have things you want to get done, let me know."
+  ],
+  #chat
+  [
+    "Guess we can rest a bit.",
+    "You should really bring the Knights of Favonius with you next time.",
+    "I still have a lot to do at the Guild, how about you take a rest while I go back?"
+  ],
+  #weather
+  [
+    "I don't need an umbrella, but you can use one if you need.",
+    "Rain... If only it could cleanse the corrupt souls of this world.",
+    "Listen, as long as you stick to your own path, it doesn't matter what mother nature throws at you.",
+    "Some use the wind's whistling to drown out the sound of their crimes."
+  ],
+  #time
+  [
+    "No need for small talk. All that matters is that you were safe last night.",
+    "Would you like to try the secret menu?",
+    "Night has fallen.",
+    "Alright, see you next time. I'll make sure you leave safely."
+  ],
+  #about-self
+  [
+    'The legend of the "Darknight Hero"? An interesting rumor.',
+    "You have business to attend to?",
+    "Huh? Knights of Favonius? ...I have nothing to say about them. We have different views is all.",
+    "It's been a long while since I played chess with anyone but my butler. I just so happen to have a moment. Care to play a round?",
+    "Checkmate! ...Still, it's been a while since someone tested me this much.",
+    "Not bad. Be it chess or combat, you always seem to surprise me. Hmm... working with you is quite the novelty. So... I look forward to continuing to work with you, partner."
+  ],
+  #about-us
+  [
+    "Just say the word if you need anything. For reimbursements, ask Elzer.",
+    "You have already proven your determination. Well then, it is now time for you to witness my resolve."
+  ],
+  #vision
+  [
+    "Visions are a light in the sea of darkness that surrounds those who have lost their way. But for those who have faith, they are little more than badges of conviction."
+  ],
+  #share
+  [
+    "Occasionally I'll work the bar at Angel's Share. The tavern is known for being the center of information in Mondstadt."
+  ],
+  #intersting
+  [
+    "What? Why do you ask? ...It's an owl, quietly watching its prey from the darkness, waiting for the perfect moment to strike... Flawless."
+  ],
+  #about-others
+  [
+    "Kaeya? You can only trust half of what he says... at best.",
+    "I believe Lisa has the potential to become the most reliable of the knights. If she's willing.",
+    "Trifling matters can become Jean's greatest enemy.",
+    "Her unparalleled sense of responsibility is the sole reason why she still hasn't found her true calling.",
+    "The land of Mondstadt, by the Anemo Archon's grace, is bountiful. I see no need for the harvest forecasts of astrologers.",
+    "Diona's attitude towards me is... how should I put it? Rather rigid. I've yet to find the opportunity to speak with her properly. I'm not sure if it's an issue with my family line or— Oh? It's not? She simply despises alcohol? Huh... I never thought I'd come across another bartender like myself in Mondstadt.",
+    "Grand Master Varka... Whilst I understand his disposition, I can make no sense of his actions. ... I—I've said too much already. I've long since left the Knights of Favonius. Forget I said anything.",
+    "Ah, yes... I've heard about her. She has her own convictions. Her determination to liberate herself from the shackles of her clan is praiseworthy. But, she's... joined the Knights of Favonius."
+  ],
+  #hobbies
+  [
+    "The artwork in the manor? It's not mine. It's a collection that belonged to my late father.",
+  ],
+  #troubles
+  [  
+    "The darkness that seethes with evil, full of demons that must be vanquished... will take more than a blade to be torn asunder."
+  ],
+  #food
+  [
+    "You want to know what's in my glass? It's... grape juice. My drink of choice.",
+    "I don't like alcohol. It's just... I don't like how it feels in my mouth..."
+  ],
+  #birthday
+  [
+    "Happy Birthday. This is an important day for you. So tell me, what is it you wish for? If it is within my power to bestow it upon you, I will give it my consideration."
+  ],
+  #ascension
+  [
+    "Power is necessary if we are to meet our objectives.",
+    "What lies in wait for us? I rarely stop to think about it. No matter what dares to stand in my way, I must press forward.",
+    "I've become stronger... Though it is still not enough, I will always face the darkness. For dawn to come, there must be those who dare to pierce the darkness with their light.",
+    "I used to believe... if I was to stamp out evil, I would have to walk alone in darkness. However, seeing your perseverance, I know I was wrong. Friend... I owe you my thanks."
+  ]
+]

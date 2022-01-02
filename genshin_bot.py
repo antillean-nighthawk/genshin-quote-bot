@@ -68,6 +68,10 @@ def make_character(person):
         character = Character(voice_lines.xiangling_lines)
     elif person == 'mona':
         character = Character(voice_lines.mona_lines)
+    elif person == 'childe':
+        character = Character(voice_lines.childe_lines)
+    elif person == 'diluc':
+        character = Character(voice_lines.diluc_lines)
 
     return character
 
