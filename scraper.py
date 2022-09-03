@@ -1,31 +1,38 @@
 import fandom
+import requests
+from bs4 import BeautifulSoup
 
 fandom.set_wiki("genshin-impact")
 
-def get_character_names():
-    page = fandom.page(title = "Characters")
-    sec = page.section("Playable Characters")
-    chars = sec.split()
-    
-    # filter out character names
-    irrelevant = ['selection:', 'Icon', 'Name', 'Rarity', 'Element', 'Weapon', 'Region', 'Model', 'Type', 
-    'Male', 'Female', 'Tall', 'Short', 'Medium', 'None', 'Playable', 'Characters', 'See', 'also:',
-    'Characters/List', '53', 'match', 'the', 'category', 'Geo', 'Pyro', 'Cryo', 'Dendro', 'Hydro', 'Electro',
-    'Anemo', 'Mondstadt', 'Liyue', 'Sumeru', 'Inazuma', 'Bow', 'Claymore', 'Catalyst', 'Sword', 'Polearm']
-    other_chars = ['Aether:', 'MaleLumine:', 'Arataki', 'Itto', 'Hu', 'Tao', 'Kamisato', 'Ayato', 'Ayaka', 'Raiden', 'Shogun', 
-    'Sangonomiya', 'Kokomi', 'Kuki', 'Shinobu', 'Yun', 'Jin', 'Snezhnaya', 'Kaedehara', 'Kazuha', 'Kujou', 'Sara',
-    'Shikanoin', 'Heizou', 'Yae', 'Miko']
-    remove = irrelevant + other_chars
+def get_character_info():
+    response = requests.get(url="https://en.wikipedia.org/wiki/List_of_Genshin_Impact_characters")
+    soup = BeautifulSoup(response.content, 'html.parser')
+    rows = soup.find_all('tr')
 
-    for r in remove:
-        while r in chars:
-            chars.remove(r)
+    character_info = []
 
-    # add back 2-word names
-    chars += ['Arataki Itto', 'Hu Tao', 'Kaedehara Kazuha', 'Kamisato Ayaka', 'Kamisato Ayato', 'Kujou Sara',
-    'Kuki Shinobu', 'Raiden ShSogun', 'Sangonomiya Kokomi', 'Shikanoin Heizou', 'Yae Miko', 'Yun Jin']
-    
-    return chars
+    for row in rows:
+        info = [d.text.rstrip() for d in row.find_all('td')]
+        character_info.append(info)
+
+    return character_info
+
+def get_character_names(character_info):
+    names = []
+
+    for character in character_info:
+        if character:
+            names.append(character[0])
+
+    names.append("Traveler")
+
+    return names
+
+def get_character_description(name, character_info, col):
+    for character in character_info:
+        if character:
+            if name.lower() == character[0].lower():
+                return character[col]
 
 def get_voice_lines(name):
     path = "{}/Voice-Overs".format(name)
@@ -62,11 +69,11 @@ def get_icon(character_name):
 
     return icon_link
 
-def find_name(character_name):
-    names = get_character_names()
+def find_name(character_name, character_info):
+    names = get_character_names(character_info)
 
     if (character_name.lower() == "lumine") or (character_name.lower() == "aether"):
-        character_name = "Traveler"
+        return "Traveler"
 
     result = [i for i in names if character_name.lower() in i.lower()]
 
