@@ -1,5 +1,5 @@
 # Genshin Quote Bot
-Discord bot that says the voice lines of characters from Genshin Impact  
+Discord bot that says the voice lines of characters from Genshin Impact (among other things)
   
 This is my first time making a Discord bot, hope you enjoy :)
 
