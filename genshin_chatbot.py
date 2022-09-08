@@ -35,13 +35,14 @@ async def _random(ctx):
     await ctx.send(embed=embed)
 
 @client.command(aliases=['c'], help="Chat with a specific character", brief="Sytax: $chat [character_name]")
-async def chat(ctx, character_name):
+async def chat(ctx, character_name, language="eng"):
     name = scraper.find_name(character_name, character_info)
+    lang_path = scraper.get_lang(language)
 
     if name == "Not found":
         await ctx.send("That's not a character!")
     else:
-        lines = scraper.get_voice_lines(name)
+        lines = scraper.get_voice_lines(name, lang_path)
         source = 'https://genshin-impact.fandom.com/wiki/' + name.replace(" ", "_") + '/Voice-Overs'
         embed = discord.Embed(description=random.choice(lines), color=discord.Color.blue())
         embed.set_author(name=name, url=source, icon_url=scraper.get_icon(name))

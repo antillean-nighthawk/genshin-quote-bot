@@ -34,8 +34,21 @@ def get_character_description(name, character_info, col):
             if name.lower() == character[0].lower():
                 return character[col]
 
-def get_voice_lines(name):
-    path = "{}/Voice-Overs".format(name)
+def get_lang(language):
+    if language == "eng" or language == "english" or language == "e":
+        return ""
+    elif language == "chn" or language == "chinese" or language == "c":
+        return "/Chinese"
+    elif language == "kr" or language == "korean" or language == "k":
+        return "/Korean"
+    elif language == "jp" or language == "japanese" or language == "j":
+        return "/Japanese"
+    else:
+        return ""
+
+
+def get_voice_lines(name, path):
+    path = "{}/Voice-Overs{}".format(name, path)
     page = fandom.page(path)
     story = page.section("Story")
     lines = story.split('\n')
