@@ -7,5 +7,4 @@ The Discord API token needs to be in a .env file located in the same directory a
  
 Bot prefix is $
   
-This bot is a work in progress
-I plan to add more languages and maybe some other functions
+This bot isn't perfect but it was fun to make
