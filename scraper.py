@@ -1,32 +1,41 @@
-import fandom
-import requests
+import fandom, requests
 from bs4 import BeautifulSoup
 
-fandom.set_wiki("genshin-impact")
-
-def get_character_info():
+def scrape_wikipedia():
+    character_info = []
     response = requests.get(url="https://en.wikipedia.org/wiki/List_of_Genshin_Impact_characters")
     soup = BeautifulSoup(response.content, 'html.parser')
     rows = soup.find_all('tr')
 
-    character_info = []
-
-    for row in rows:
+    for row in rows[1:-4]:
         info = [d.text.rstrip() for d in row.find_all('td')]
-        character_info.append(info)
+        if info:
+            character_info.append(info)
+
+    # combine traveler entries
+    character_info[0][0] = "Aether/Lumine/Traveler"
+    character_info[0][3] += character_info[1][1]
+    character_info.pop(1)
 
     return character_info
 
-def get_character_names(character_info):
+# format names from user input
+def find_name(character_name, character_info):
     names = []
-
     for character in character_info:
         if character:
             names.append(character[0])
 
-    names.append("Traveler")
+    if character_name.lower() in "aether/lumine/traveler": return "Traveler"
+    result = [i for i in names if character_name.lower() in i.lower()]
 
-    return names
+    if len(result) > 1:
+        for name in result:
+            word = name.split(" ")
+            for w in word:
+                if w.lower() == character_name.lower():
+                    return name
+    return result[0]
 
 def get_character_description(name, character_info, col):
     for character in character_info:
@@ -34,69 +43,45 @@ def get_character_description(name, character_info, col):
             if name.lower() == character[0].lower():
                 return character[col]
 
-def get_lang(language):
-    if language == "eng" or language == "english" or language == "e":
-        return ""
-    elif language == "chn" or language == "chinese" or language == "c":
+def set_lang(language):
+    if language in ["chn", "chinese", "c"]:
         return "/Chinese"
-    elif language == "kr" or language == "korean" or language == "k":
+    elif language in ["kr", "korean", "k"]:
         return "/Korean"
-    elif language == "jp" or language == "japanese" or language == "j":
+    elif language in ["jp", "japanese", "j"]:
         return "/Japanese"
-    else:
+    else: # defaults to english
         return ""
-
 
 def get_voice_lines(name, path):
-    path = "{}/Voice-Overs{}".format(name, path)
-    page = fandom.page(path)
+    fandom.set_wiki("genshin-impact")
+    page = fandom.page("{}/Voice-Overs{}".format(name, path))
     story = page.section("Story")
+    if name == "Traveler": # traveler only has a few combat lines
+        story = page.section("Combat")
     lines = story.split('\n')
 
-    # remove junk
-    lines.pop(0)
-    lines.pop(0)
-
-    # clean up lines
-    for i in range(len(lines)):
-        try:
-            index = lines[i].rindex(".ogg") + 5
-        except:
-            index = 0
-
+    lines = lines[2:] # remove table header
+    for i in range(len(lines)): # remove sound files
+        try: index = lines[i].rindex(".ogg") + 5
+        except: index = 0
         lines[i] = lines[i][index:]
-
-        if name == "Traveler":
-            lines[i] = lines[i].replace("TitleDetails", "")
-            lines[i] = lines[i].replace("AetherLumine", "")
-            lines[i] = lines[i].replace("???", "")
-
-    
-    return lines
+        if name == "Fischl": # newlines for Fischl/Oz dialogue
+            lines[i] = lines[i].replace(name+':', '\n'+name+':')
+            lines[i] = lines[i].replace("Oz:", "\nOz:")
+    return [x for x in lines if x] # clean null elements
 
 def get_icon(character_name):
-    if character_name != "Traveler":
-        icon_link = 'https://rerollcdn.com/GENSHIN/Characters/' + character_name.replace(" ", "%20") + '.png'
+    last_names_only = ["Arataki Itto", "Kamisato Ayaka", "Kamisato Ayato", 
+                       "Sangonomiya Kokomi", "Shikanoin Heizou", "Kaedehara Kazuha"]
+    
+    if character_name in last_names_only:
+        first, last = character_name.split(' ')
+        return f'https://rerollcdn.com/GENSHIN/Characters/1/{last}.png'
+    elif character_name == "Raiden Shogun":
+        return 'https://rerollcdn.com/GENSHIN/Characters/1/Raiden.png'
+    elif character_name == "Aether/Lumine/Traveler": # elements are all the same image
+        return 'https://rerollcdn.com/GENSHIN/Characters/1/Traveler%20(Anemo).png'
     else:
-        icon_link = 'https://rerollcdn.com/GENSHIN/Characters/Traveler%20(Anemo).png'
-
-    return icon_link
-
-def find_name(character_name, character_info):
-    names = get_character_names(character_info)
-
-    if (character_name.lower() == "lumine") or (character_name.lower() == "aether"):
-        return "Traveler"
-
-    result = [i for i in names if character_name.lower() in i.lower()]
-
-    if not result:
-        return "Not found"
-    elif len(result) > 1:
-        for name in result:
-            word = name.split(" ")
-            for w in word:
-                if w.lower() == character_name.lower():
-                    return name
-    else:
-        return result[0]
+        percent_encoded = character_name.replace(" ", "%20")
+        return f'https://rerollcdn.com/GENSHIN/Characters/1/{percent_encoded}.png'
